@@ -40,3 +40,11 @@ h1 {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+
+th, td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 150px;
+}

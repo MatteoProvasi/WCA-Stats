@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>3x3x3 World Records</title>
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../table.css">
 </head>
 <body>
   <h1>3x3x3 Historical World Records</h1>
@@ -15,23 +16,27 @@
   </table>
 
   <script>
-    // Carica il CSV e lo trasforma in tabella
-    fetch('../data/Medagliere Italiano.csv')
-      .then(r => r.text())
-      .then(text => {
-        const rows = text.trim().split('\n').map(r => r.split(','));
-        const [header, ...data] = rows;
+	fetch('../data/results.csv')
+	  .then(r => r.text())
+	  .then(text => {
+		const rows = text.trim().split('\n').map(r => r.split(','));
+		const [header, ...data] = rows;
 
-        const thead = document.querySelector('#data-table thead');
-        const tbody = document.querySelector('#data-table tbody');
+		const thead = document.querySelector('#data-table thead');
+		const tbody = document.querySelector('#data-table tbody');
 
-        // Header
-        thead.innerHTML = '<tr>' + header.map(h => `<th>${h}</th>`).join('') + '</tr>';
-        // Righe
-        tbody.innerHTML = data.map(row => 
-          '<tr>' + row.map(cell => `<td>${cell}</td>`).join('') + '</tr>'
-        ).join('');
-      });
-  </script>
+		thead.innerHTML = '<tr>' + header.map(h => `<th>${h}</th>`).join('') + '</tr>';
+
+		tbody.innerHTML = data.map(row => {
+		  return '<tr>' + row.map((cell, i) => {
+			if (i === 1) { // seconda colonna (indice 1) = WCAid
+			  const url = `https://www.worldcubeassociation.org/persons/${cell}`;
+			  return `<td><a href="${url}" target="_blank">${cell}</a></td>`;
+			}
+			return `<td>${cell}</td>`;
+		  }).join('') + '</tr>';
+		}).join('');
+	  });
+	</script>
 </body>
 </html>
