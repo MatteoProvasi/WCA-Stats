@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>WCA Stats</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>WCA Stats</h1>
+
+  <div class="card-container">
+    <!-- Prima casella -->
+    <div class="card" onclick="toggleSubcards('records')">
+      Historical World Records Beaten
+    </div>
+
+    <!-- Sotto-caselle -->
+    <div id="records" class="subcards">
+      <div class="subcard" onclick="location.href='pages/historical-records.html'">
+        3x3x3 World Records
+      </div>
+      <div class="subcard" onclick="location.href='pages/historical-records.html'">
+        4x4x4 World Records
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleSubcards(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>

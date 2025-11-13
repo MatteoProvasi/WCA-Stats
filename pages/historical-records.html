@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>3x3x3 World Records</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>3x3x3 Historical World Records</h1>
+  <a href="../index.html">← Torna alla home</a>
+
+  <table id="data-table" border="1" style="margin:auto; margin-top:20px; border-collapse: collapse;">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    // Carica il CSV e lo trasforma in tabella
+    fetch('../data/Medagliere Italiano.csv')
+      .then(r => r.text())
+      .then(text => {
+        const rows = text.trim().split('\n').map(r => r.split(','));
+        const [header, ...data] = rows;
+
+        const thead = document.querySelector('#data-table thead');
+        const tbody = document.querySelector('#data-table tbody');
+
+        // Header
+        thead.innerHTML = '<tr>' + header.map(h => `<th>${h}</th>`).join('') + '</tr>';
+        // Righe
+        tbody.innerHTML = data.map(row => 
+          '<tr>' + row.map(cell => `<td>${cell}</td>`).join('') + '</tr>'
+        ).join('');
+      });
+  </script>
+</body>
+</html>
