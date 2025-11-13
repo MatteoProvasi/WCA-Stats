@@ -1,0 +1,106 @@
+﻿#,WCAid,Nome,Oro,Argento,Bronzo,Totale
+1,2014MAUR06,Lorenzo Mauro,30,10,7,47
+2,2019GIOR02,Marco Giordano,15,11,5,31
+3,2009PROV01,Matteo Provasi,12,16,20,48
+4,2009IOVA01,Massimiliano Iovane,11,1,3,15
+5,2011ANNE01,Edoardo Annesi,9,6,5,20
+6,2021PARO01,Matteo Parodi,8,10,3,21
+7,2021ZANG01,Alessandro Zangolini,8,6,12,26
+8,2022CORB03,Leonardo Corbelli,7,5,4,16
+9,2015MANN02,Marco Manno,7,0,2,9
+10,2010SARD01,Andrea Lo Sardo,7,0,1,8
+11,2018CENT02,Giovanni Centili,6,4,2,12
+,2023EMIL02,Matteo Emiliani,6,4,2,12
+13,2008SIMO02,Nicolò Simone,5,7,5,17
+14,2023CARO07,Leonardo Carosio,5,2,1,8
+15,2024RICC01,Riccardo Fiumefreddo,4,4,3,11
+16,2013DISA01,Edoardo Disarò,4,1,2,7
+17,2008BRAN01,Filippo Brancaleoni,3,4,3,10
+18,2023CREA02,Christian Crea,3,3,5,11
+19,2019MAZZ01,Nicola Mazza,3,3,4,10
+20,2020TOMA01,Fabian Tomasović,2,5,9,16
+21,2017SANN01,Valerio Sannito,2,3,4,9
+22,2009TESS01,Giovanni Tessari,2,3,3,8
+,2018RIMI01,Flavio Rimi,2,3,3,8
+24,2007POLI01,Lorenzo Vigani Poli,2,2,0,4
+25,2009ROTA01,Marco Rota,2,1,10,13
+26,2017PIER03,Davide Pierrat,2,1,0,3
+27,2018LOCA01,Valerio Locatelli,1,6,7,14
+28,2009MORI05,Paolo Moriello,1,5,2,8
+29,2009DIMP01,Mariano D'Imperio,1,3,5,9
+30,2009MACR01,Davide Macri,1,3,1,5
+,2022ROSS02,Fabio Rossi,1,3,1,5
+32,2011TRON02,Sebastiano Tronto,1,2,5,8
+33,2019CORO04,Giacomo Daniele Corò,1,2,2,5
+34,2017GALE01,Mattia Galentino,1,2,0,3
+35,2023PISC02,Giovanni Piscitelli,1,1,3,5
+36,2011MONT02,Kevin Montano,1,1,2,4
+,2016CANC03,Samuele Cancemi,1,1,2,4
+38,2009KASE02,Christian Kaserer,1,1,1,3
+,2023DANT01,Michel D'Antoni,1,1,1,3
+40,2008LOMB01,Pasquale Lombardozzi,1,1,0,2
+,2011BARB03,Nicola Barbaro,1,1,0,2
+42,2022MACC01,Evan Maccagnan,1,0,3,4
+43,2013FURL01,Mattia Furlan,1,0,1,2
+,2018ARNE04,Davide Arnesano,1,0,1,2
+45,2009GAGG02,Andrea Gaggioli,1,0,0,1
+,2015PRIN02,Andrea Princic,1,0,0,1
+,2018OPPI01,Leonardo Oppi,1,0,0,1
+48,2012CAPP01,Gabriele Cappelletti,0,5,3,8
+49,2015PERU02,Vittorio Maria Perucatti,0,5,2,7
+50,2021NARB01,Dario Angelo Narbone,0,4,0,4
+51,2008SIMO01,Riccardo Simone,0,3,3,6
+52,2009CIAN01,Simone Ciancotti,0,3,2,5
+,2022LESC02,Sebastiano Leschiutta,0,3,2,5
+54,2015FAVA01,Alessandro Fava,0,3,1,4
+55,2009CONT01,Giovanni Contardi,0,2,4,6
+56,2015NICO02,Lorenzo Nicotra,0,2,2,4
+57,2007CHIM01,Giulio Chiminelli,0,2,0,2
+,2014MATT05,Gabriele De Matteis,0,2,0,2
+,2019PAOL02,Federico De Paoli,0,2,0,2
+60,2021SALE01,Sofia Saletnich,0,1,5,6
+61,2009MANZ01,Luigi Manzo,0,1,2,3
+,2012NICO02,Alessandro Nicolì,0,1,2,3
+,2018RICC02,Alessandro Ricci,0,1,2,3
+,2019SART01,Daniel Sartori,0,1,2,3
+65,2016GAMM01,Vincenzo Maria Gammino,0,1,1,2
+,2016PAOL01,Damiano Di Paola,0,1,1,2
+,2022CONT10,Angelo Contrino,0,1,1,2
+,2023PICH01,Maximilian Pichler,0,1,1,2
+69,2009GIOB01,Piermarco Giobbi,0,1,0,1
+,2012MURC01,Davide Murciano,0,1,0,1
+,2016ZANE01,Filippo Zanetti,0,1,0,1
+,2017DUMM01,Matteo Dummar,0,1,0,1
+,2019CRIP01,Jordan Crippa,0,1,0,1
+,2019MAZZ02,Pietro Mazza,0,1,0,1
+,2020ZAGO01,Mattia Zago,0,1,0,1
+,2022CERR01,Luca Cerrato,0,1,0,1
+,2023AVER04,Manuel Aversano,0,1,0,1
+,2023SANN03,Lorenzo Sannibale,0,1,0,1
+,2024PRIS02,Giulio Prisciantelli,0,1,0,1
+,2024RUSS02,Gabriel La Russa,0,1,0,1
+81,2008ZOFF01,Tommaso Zoffoli,0,0,1,1
+,2009GIOR01,Nicola Giordani,0,0,1,1
+,2010CHAN14,Letian Mattia Chang,0,0,1,1
+,2011GALA01,Filippo Galasso,0,0,1,1
+,2012BERE01,Andrea Beretta,0,0,1,1
+,2012CANT02,Simone Cantarelli,0,0,1,1
+,2012SIMO01,Alessandro Simone,0,0,1,1
+,2014BENT02,Roberto Bentivoglio,0,0,1,1
+,2014BUCC01,Daniele Buccolieri,0,0,1,1
+,2014HUTO01,Tommy Hu,0,0,1,1
+,2014PIZZ02,Christian Pizzasegola,0,0,1,1
+,2014ZONT01,Giorgio Zonta,0,0,1,1
+,2015BIAN03,Pietro Bianco,0,0,1,1
+,2015CHIA01,Michele Chiaravalloti,0,0,1,1
+,2017CHEJ09,Jungqiang Chen,0,0,1,1
+,2017LAMO01,Emanuele Lamon,0,0,1,1
+,2017MUZI01,Andrea Muzii,0,0,1,1
+,2017VOCI01,Riccardo Voci,0,0,1,1
+,2021PAND01,Alessio Pandin,0,0,1,1
+,2022MARI21,Eren Alessio Marino,0,0,1,1
+,2022RIBE02,Vittorio Ribechini,0,0,1,1
+,2023AMAT01,Alessandro Amato,0,0,1,1
+,2023NICC01,Flavio Niccoli,0,0,1,1
+,2023PROV04,Riccardo Provenzani,0,0,1,1
+,2024CIBE01,Matteo Cibene,0,0,1,1
