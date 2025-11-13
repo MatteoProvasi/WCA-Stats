@@ -4,6 +4,41 @@
   <meta charset="UTF-8">
   <title>WCA Stats (Italia)</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .card-container {
+      width: 300px; /* Larghezza totale della card */
+      margin: 20px auto;
+    }
+
+    .card, .subcard, .subsubcard {
+      background-color: #f0f0f0;
+      padding: 15px;
+      margin: 5px 0;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .subcards, .subsubcards {
+      display: none;
+      padding-left: 10px;
+    }
+
+    /* Layout anni: 5 celle per riga */
+    .year-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 5px;
+    }
+
+    .year-cell {
+      background-color: #d0d0d0;
+      padding: 10px;
+      text-align: center;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <h1>WCA Stats (Italia)</h1>
@@ -21,6 +56,39 @@
       </div>
       <div class="subcard" onclick="location.href='pages/Medagliere Italiano Totale.html'">
         Medagliere (per Totale)
+      </div>
+	  <!-- Terza sotto-casella con ulteriori anni -->
+      <div class="subcard" onclick="toggleSubcards('years')">
+	    Medagliere per anno
+      </div>
+	  
+	  <div id="years" class="subsubcards">
+        <div class="year-grid">
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2007.html'">2007</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2008.html'">2008</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2009.html'">2009</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2010.html'">2010</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2011.html'">2011</div>
+
+          <!-- Se ci sono più anni, la griglia passerà automaticamente alla riga successiva -->
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2012.html'">2012</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2013.html'">2013</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2014.html'">2014</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2015.html'">2015</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2016.html'">2016</div>
+		  
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2017.html'">2017</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2018.html'">2018</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2019.html'">2019</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2020.html'">2020</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2021.html'">2021</div>
+		  
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2022.html'">2022</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2023.html'">2023</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2024.html'">2024</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2025.html'">2025</div>
+          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano per anno.html'">Qualsiasi</div>
+        </div>
       </div>
     </div>
   </div>

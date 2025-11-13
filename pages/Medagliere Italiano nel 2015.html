@@ -2,15 +2,15 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Medagliere Italiano</title>
+  <title>Medagliere Italiano nel 2015</title>
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../table.css">
 </head>
 <body>
-  <h1>Medagliere Italiano
+  <h1>Medagliere Italiano nel 2015
   <br>
 	<span style="font-size: 0.5em; font-style: italic; color: gray;">
-		Medagliere italiano ordinato per Oro, Argento, Bronzo, Totale
+		Medagliere italiano considerando solamente le competizioni del 2015
 	</span>
   </br>
   </h1>
@@ -22,7 +22,7 @@
   </table>
 
   <script>
-	fetch('../data/Medagliere Italiano.csv')
+	fetch('../data/Medagliere Italiano nel 2015.csv')
 	  .then(r => r.text())
 	  .then(text => {
 		const rows = text.trim().split('\n').map(r => r.split(','));
