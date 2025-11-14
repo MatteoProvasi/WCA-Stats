@@ -2,15 +2,15 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Medagliere Italiano nel 7x7</title>
+  <title>Medagliere Italiano nel Square-1 in un anno</title>
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../table.css">
 </head>
 <body>
-  <h1>Medagliere Italiano nel 7x7
+  <h1>Medagliere Italiano nel Square-1 in un anno
   <br>
 	<span style="font-size: 0.5em; font-style: italic; color: gray;">
-		Medagliere italiano nell'evento 7x7
+		Medagliere italiano nell'evento Square-1 in un anno
 	</span>
   </br>
   </h1>
@@ -22,7 +22,7 @@
   </table>
 
   <script>
-	fetch('../data/Medagliere Italiano nel 777.csv')
+	fetch('../data/Medagliere Italiano nel sq1 in un anno.csv')
 	  .then(r => r.text())
 	  .then(text => {
 		const rows = text.trim().split('\n').map(r => r.split(','));

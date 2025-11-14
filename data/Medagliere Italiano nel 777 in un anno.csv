@@ -1,0 +1,116 @@
+﻿#,WCAid,Nome,Anno,Oro,Argento,Bronzo,Totale
+1,2016GAMM01,Vincenzo Maria Gammino,2024,15,3,4,22
+2,2016GAMM01,Vincenzo Maria Gammino,2025,12,3,0,15
+3,2016GAMM01,Vincenzo Maria Gammino,2023,10,3,1,14
+4,2021MARI04,Paolo Marino,2024,10,3,0,13
+5,2021MARI04,Paolo Marino,2025,6,2,1,9
+6,2016GAMM01,Vincenzo Maria Gammino,2022,5,2,3,10
+7,2013FURL01,Mattia Furlan,2015,5,0,0,5
+8,2013FURL01,Mattia Furlan,2016,4,0,1,5
+9,2013FURL01,Mattia Furlan,2017,4,0,0,4
+10,2017BRAS01,Luca Brasini,2024,3,3,2,8
+11,2007POLI01,Lorenzo Vigani Poli,2013,3,2,0,5
+,2016GAMM01,Vincenzo Maria Gammino,2018,3,2,0,5
+13,2017BRAS01,Luca Brasini,2022,3,1,1,5
+14,2010VESC01,Gianluca Veschi,2011,3,1,0,4
+15,2013FURL01,Mattia Furlan,2019,3,0,0,3
+16,2016GAMM01,Vincenzo Maria Gammino,2019,2,3,1,6
+17,2017BRAS01,Luca Brasini,2023,2,1,1,4
+18,2011NATA02,Andrea Natale,2012,2,1,0,3
+,2013FURL01,Mattia Furlan,2014,2,1,0,3
+,2011NATA02,Andrea Natale,2015,2,1,0,3
+21,2007POLI01,Lorenzo Vigani Poli,2011,1,3,0,4
+,2018CENT02,Giovanni Centili,2023,1,3,0,4
+23,2016GASP01,Pietro Gasparetto,2019,1,1,1,3
+,2017BRAS01,Luca Brasini,2025,1,1,1,3
+,2019SART01,Daniel Sartori,2025,1,1,1,3
+26,2009MORI05,Paolo Moriello,2014,1,1,0,2
+,2011NATA02,Andrea Natale,2014,1,1,0,2
+,2022CHIA13,Federico Chiarello,2025,1,1,0,2
+29,2009CONT01,Giovanni Contardi,2011,1,0,2,3
+30,2007POLI01,Lorenzo Vigani Poli,2014,1,0,1,2
+,2014MAUR06,Lorenzo Mauro,2024,1,0,1,2
+,2021SALE01,Sofia Saletnich,2025,1,0,1,2
+33,2008SIMO01,Riccardo Simone,2009,1,0,0,1
+,2010FRAN04,Mattia Francardi,2010,1,0,0,1
+,2009MORI05,Paolo Moriello,2012,1,0,0,1
+,2010VESC01,Gianluca Veschi,2013,1,0,0,1
+,2009CONT01,Giovanni Contardi,2015,1,0,0,1
+,2011NATA02,Andrea Natale,2016,1,0,0,1
+,2013FURL01,Mattia Furlan,2018,1,0,0,1
+,2013FURL01,Mattia Furlan,2020,1,0,0,1
+,2015MANN02,Marco Manno,2024,1,0,0,1
+42,2022MANT03,Alberto Mantovani,2024,0,4,2,6
+43,2013TRAM03,Giovanni Tramontano,2025,0,3,3,6
+44,2009MORI05,Paolo Moriello,2013,0,3,1,4
+45,2008SIMO01,Riccardo Simone,2010,0,3,0,3
+,2013DISA01,Edoardo Disarò,2015,0,3,0,3
+,2018CENT02,Giovanni Centili,2024,0,3,0,3
+48,2022MANT03,Alberto Mantovani,2025,0,2,2,4
+49,2009MORI05,Paolo Moriello,2015,0,2,1,3
+,2021MARI04,Paolo Marino,2023,0,2,1,3
+,2022CHIA13,Federico Chiarello,2023,0,2,1,3
+,2019SART01,Daniel Sartori,2024,0,2,1,3
+,2021NARB01,Dario Angelo Narbone,2024,0,2,1,3
+54,2018RIMI01,Flavio Rimi,2025,0,2,0,2
+55,2009MORI05,Paolo Moriello,2011,0,1,3,4
+56,2015MANN02,Marco Manno,2022,0,1,2,3
+,2016PAOL01,Damiano Di Paola,2025,0,1,2,3
+58,2009BEVA01,Stefano Bevacqua,2012,0,1,1,2
+,2009DIMP01,Mariano D'Imperio,2012,0,1,1,2
+,2013DISA01,Edoardo Disarò,2016,0,1,1,2
+,2016GAMM01,Vincenzo Maria Gammino,2017,0,1,1,2
+,2014MAUR06,Lorenzo Mauro,2018,0,1,1,2
+,2014MAUR06,Lorenzo Mauro,2023,0,1,1,2
+,2023PASS02,Alessio Passerini,2025,0,1,1,2
+65,2009DIMP01,Mariano D'Imperio,2009,0,1,0,1
+,2010SARD01,Andrea Lo Sardo,2010,0,1,0,1
+,2008SIMO01,Riccardo Simone,2011,0,1,0,1
+,2010VESC01,Gianluca Veschi,2012,0,1,0,1
+,2013DISA01,Edoardo Disarò,2014,0,1,0,1
+,2013MANO03,Alessandro Manopulo,2014,0,1,0,1
+,2009MORI05,Paolo Moriello,2016,0,1,0,1
+,2014MAUR06,Lorenzo Mauro,2017,0,1,0,1
+,2009ROTA01,Marco Rota,2018,0,1,0,1
+,2016GASP01,Pietro Gasparetto,2018,0,1,0,1
+,2009CONT01,Giovanni Contardi,2019,0,1,0,1
+,2015PERU02,Vittorio Maria Perucatti,2019,0,1,0,1
+,2018CILI01,Simone Cilia,2019,0,1,0,1
+,2016GAMM01,Vincenzo Maria Gammino,2020,0,1,0,1
+,2017DUMM01,Matteo Dummar,2020,0,1,0,1
+,2019GIOR02,Marco Giordano,2022,0,1,0,1
+81,2007POLI01,Lorenzo Vigani Poli,2015,0,0,3,3
+,2007POLI01,Lorenzo Vigani Poli,2016,0,0,3,3
+,2007POLI01,Lorenzo Vigani Poli,2018,0,0,3,3
+,2019SART01,Daniel Sartori,2023,0,0,3,3
+,2022CHIA13,Federico Chiarello,2024,0,0,3,3
+86,2008SIMO01,Riccardo Simone,2014,0,0,2,2
+,2009MORI05,Paolo Moriello,2019,0,0,2,2
+,2018ARNE04,Davide Arnesano,2024,0,0,2,2
+,2018RIMI01,Flavio Rimi,2024,0,0,2,2
+,2017TENU01,Enrico Tenuti,2025,0,0,2,2
+91,2009MORI05,Paolo Moriello,2009,0,0,1,1
+,2009CONT01,Giovanni Contardi,2010,0,0,1,1
+,2009MORI05,Paolo Moriello,2010,0,0,1,1
+,2010GIRO01,Paolo Girotti,2010,0,0,1,1
+,2007POLI01,Lorenzo Vigani Poli,2012,0,0,1,1
+,2008BRAN01,Filippo Brancaleoni,2013,0,0,1,1
+,2008SIMO01,Riccardo Simone,2013,0,0,1,1
+,2009BEVA01,Stefano Bevacqua,2013,0,0,1,1
+,2009CONT01,Giovanni Contardi,2013,0,0,1,1
+,2011MINI01,Marco Minici,2014,0,0,1,1
+,2008SIMO01,Riccardo Simone,2015,0,0,1,1
+,2009ROTA01,Marco Rota,2015,0,0,1,1
+,2012SIGN01,Marco Signorini,2015,0,0,1,1
+,2016BELL09,Lorenzo Bellocci,2018,0,0,1,1
+,2009IOVA01,Massimiliano Iovane,2019,0,0,1,1
+,2017BRAS01,Luca Brasini,2019,0,0,1,1
+,2016PAPP02,Giuseppe Pappalardo,2020,0,0,1,1
+,2016GAMM01,Vincenzo Maria Gammino,2021,0,0,1,1
+,2016PAOL01,Damiano Di Paola,2022,0,0,1,1
+,2009ROTA01,Marco Rota,2023,0,0,1,1
+,2012NICO02,Alessandro Nicolì,2023,0,0,1,1
+,2017DUMM01,Matteo Dummar,2024,0,0,1,1
+,2016GASP01,Pietro Gasparetto,2025,0,0,1,1
+,2018CENT02,Giovanni Centili,2025,0,0,1,1
+,2023EMIL02,Matteo Emiliani,2025,0,0,1,1
