@@ -22,7 +22,7 @@
   </table>
 
   <script>
-	fetch('../data/Medagliere Italiano nel 222.csv')
+	fetch('../data/Medagliere Italiano agli IC nel mmagic.csv')
 	  .then(r => r.text())
 	  .then(text => {
 		const rows = text.trim().split('\n').map(r => r.split(','));
