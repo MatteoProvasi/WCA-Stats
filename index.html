@@ -4,353 +4,353 @@
   <meta charset="UTF-8">
   <title>WCA Stats (Italia)</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .card-container {
-      width: 300px; /* Larghezza totale della card */
-      margin: 20px auto;
-    }
-
-    .card, .subcard, .subsubcard {
-      background-color: #f0f0f0;
-      padding: 15px;
-      margin: 5px 0;
-      text-align: center;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .subcards, .subsubcards {
-      display: none;
-      padding-left: 10px;
-    }
-
-    /* Layout anni: 5 celle per riga */
-    .year-grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 5px;
-    }
-
-    .year-cell {
-      background-color: #d0d0d0;
-      padding: 10px;
-      text-align: center;
-      border-radius: 3px;
-      cursor: pointer;
-    }
-	
-	.event-grid {
-	  display: grid;
-	  grid-template-columns: repeat(5, 1fr); /* 5 colonne */
-      gap: 5px;
-    }
-	
-	.event-cell {
-	  background-color: #d0d0d0;
-	  padding: 10px;
-	  text-align: center;
-	  border-radius: 3px;
-	  cursor: pointer;
-	}
-
-	.event-cell img {
-	  max-width: 70%; /* che l’icona si adatti alla cella */
-	  height: auto;
-	}
-  </style>
+  <link rel="stylesheet" href="table.css">
 </head>
+
 <body>
-  <h1>WCA Stats (Italia)</h1>
+<h1>WCA Stats (Italia)</h1>
 
-  <div class="card-container">
-    <!-- Prima casella -->
-    <div class="card" onclick="toggleSubcards('records')">
-      Medagliere Italiano
-    </div>
+<div class="accordion">
 
-    <!-- Sotto-caselle -->
-    <div id="records" class="subcards">
-      <div class="subcard" onclick="location.href='pages/Medagliere Italiano.html'">
-        Medagliere (per # Ori)
+  <!-- ====================== -->
+  <!--       MEDAGLIERE       -->
+  <!-- ====================== -->
+  <div class="accordion-item">
+      <button class="accordion-header">Medagliere Italiano</button>
+      <div class="accordion-content">
+
+          <!-- Medagliere per # Ori -->
+          <div class="final-item blue" onclick="location.href='pages/medagliere/Medagliere Italiano.html'">
+			  Medagliere (per # Ori)
+		  </div>
+
+          <!-- Medagliere totale -->
+          <div class="final-item blue" onclick="location.href='pages/medagliere/Medagliere Italiano Totale.html'">
+                  Medagliere (per medaglie totali)
+          </div>
+		  <br></br>
+
+          <!-- ================= -->
+          <!-- MEDAGLIERE per ANNO -->
+          <!-- ================= -->
+          <div class="accordion-item nested">
+              <button class="accordion-header">Medagliere per anno</button>
+              <div class="accordion-content">
+
+                  <div class="nested-grid">
+                      <!-- ANNI -->
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2007.html'">2007</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2008.html'">2008</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2009.html'">2009</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2010.html'">2010</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2011.html'">2011</div>
+
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2012.html'">2012</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2013.html'">2013</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2014.html'">2014</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2015.html'">2015</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2016.html'">2016</div>
+
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2017.html'">2017</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2018.html'">2018</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2019.html'">2019</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2020.html'">2020</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2021.html'">2021</div>
+
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2022.html'">2022</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2023.html'">2023</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2024.html'">2024</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano nel 2025.html'">2025</div>
+                      <div class="grid-item blue" onclick="location.href='pages/medagliere/medagliere per anno/Medagliere Italiano per anno.html'">Qualsiasi</div>
+                  </div>
+
+              </div>
+          </div>
+
+
+          <!-- ================= -->
+          <!-- MEDAGLIERE PER EVENTO -->
+          <!-- ================= -->
+          <div class="accordion-item nested">
+              <button class="accordion-header">Medagliere per evento</button>
+              <div class="accordion-content">
+
+                  <div class="nested-grid">
+                      <!-- EVENTI -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 333.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333.svg"> <span>3×3</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 222.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/222.svg"> <span>2x2</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 444.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444.svg"> <span>4x4</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 555.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555.svg"> <span>5x5</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 666.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/666.svg"> <span>6x6</span>
+                      </div>
+
+                      <!-- RIGA 2 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 777.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/777.svg"> <span>7x7</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 333bf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333bf.svg"> <span>3x3 Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 333fm.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333fm.svg"> <span>3x3 Fewest</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 333oh.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333oh.svg"> <span>3x3 One-Handed</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel clock.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/clock.svg"> <span>Clock</span>
+                      </div>
+
+                      <!-- RIGA 3 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel minx.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/minx.svg"> <span>Megaminx</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel pyram.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/pyram.svg"> <span>Pyraminx</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel skewb.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/skewb.svg"> <span>Skewb</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel sq1.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/sq1.svg"> <span>Square-1</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 444bf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444bf.svg"> <span>4x4 Blind</span>
+                      </div>
+
+                      <!-- RIGA 4 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 555bf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555bf.svg"> <span>5x5 Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 333mbf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333mbf.svg"> <span>3x3 Multi Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel 333ft.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333ft.svg"> <span>3x3 Feet</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel magic.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/magic.svg"> <span>Magic</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento/Medagliere Italiano nel mmagic.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/mmagic.svg"> <span>Master Magic</span>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+		
+
+          <!-- ====================== -->
+          <!-- MEDAGLIERE EVENTO × ANNO -->
+          <!-- ====================== -->
+          <div class="accordion-item nested">
+              <button class="accordion-header">Medagliere per evento per anno</button>
+              <div class="accordion-content">
+
+                  <div class="nested-grid">
+                      <!-- EVENTI -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 333 in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333.svg"> <span>3×3</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 222 in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/222.svg"> <span>2x2</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 444 in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444.svg"> <span>4x4</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 555 in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555.svg"> <span>5x5</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 666 in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/666.svg"> <span>6x6</span>
+                      </div>
+
+                      <!-- RIGA 2 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 777 in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/777.svg"> <span>7x7</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 333bf in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333bf.svg"> <span>3x3 Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 333fm in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333fm.svg"> <span>3x3 Fewest</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 333oh in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333oh.svg"> <span>3x3 One-Handed</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel clock in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/clock.svg"> <span>Clock</span>
+                      </div>
+
+                      <!-- RIGA 3 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel minx in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/minx.svg"> <span>Megaminx</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel pyram in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/pyram.svg"> <span>Pyraminx</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel skewb in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/skewb.svg"> <span>Skewb</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel sq1 in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/sq1.svg"> <span>Square-1</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 444bf in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444bf.svg"> <span>4x4 Blind</span>
+                      </div>
+
+                      <!-- RIGA 4 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 555bf in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555bf.svg"> <span>5x5 Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 333mbf in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333mbf.svg"> <span>3x3 Multi Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel 333ft in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333ft.svg"> <span>3x3 Feet</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel magic in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/magic.svg"> <span>Magic</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano nel mmagic in un anno.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/mmagic.svg"> <span>Master Magic</span>
+                      </div>
+					  
+					  <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere per evento per anno/Medagliere Italiano in un anno in un evento.html'">
+                        Qualsiasi
+                      </div>
+
+                  </div>
+
+              </div>
+          </div>
+		  <br></br>
+
+          <!-- ============================== -->
+          <!-- MEDAGLIERE SOLO CAMPIONATI    -->
+          <!-- ============================== -->
+          <div class="final-item blue" onclick="location.href='pages/medagliere/Medagliere Italiano solo IC.html'">
+			  Medagliere solo Campionati Italiani
+		  </div>
+     
+          <div class="final-item blue" onclick="location.href='pages/medagliere/Medagliere Italiano solo Campionati Esteri.html'">
+			  Medagliere solo Campionati Esteri
+		  </div>
+
+
+          <!-- ---- IC PER EVENTO ---- -->
+          <div class="accordion-item nested">
+              <button class="accordion-header">Medagliere solo Campionati Italiani per Evento</button>
+              <div class="accordion-content">
+
+                  <div class="nested-grid">
+                      <!-- EVENTI -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 333.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333.svg"> <span>3×3</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 222.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/222.svg"> <span>2x2</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 444.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444.svg"> <span>4x4</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 555.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555.svg"> <span>5x5</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 666.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/666.svg"> <span>6x6</span>
+                      </div>
+
+                      <!-- RIGA 2 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 777.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/777.svg"> <span>7x7</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 333bf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333bf.svg"> <span>3x3 Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 333fm.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333fm.svg"> <span>3x3 Fewest</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 333oh.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333oh.svg"> <span>3x3 One-Handed</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel clock.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/clock.svg"> <span>Clock</span>
+                      </div>
+
+                      <!-- RIGA 3 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel minx.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/minx.svg"> <span>Megaminx</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel pyram.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/pyram.svg"> <span>Pyraminx</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel skewb.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/skewb.svg"> <span>Skewb</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel sq1.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/sq1.svg"> <span>Square-1</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 444bf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444bf.svg"> <span>4x4 Blind</span>
+                      </div>
+
+                      <!-- RIGA 4 -->
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 555bf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555bf.svg"> <span>5x5 Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 333mbf.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333mbf.svg"> <span>3x3 Multi Blind</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel 333ft.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333ft.svg"> <span>3x3 Feet</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel magic.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/magic.svg"> <span>Magic</span>
+                      </div>
+                      <div class="grid-item blue event-item" onclick="location.href='pages/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel mmagic.html'">
+                        <img class="event-icon" src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/mmagic.svg"> <span>Master Magic</span>
+                      </div>
+
+                  </div>
+
+              </div>
+          </div>
+		  <br></br>
+
+          <!-- ----------------------- -->
+          <!-- PODIANDO in un evento -->
+          <!-- ----------------------- -->
+          <div class="final-item blue" onclick="location.href='pages/medagliere/Medagliere Italiano podiando in un unico evento.html'">
+			  Medagliere Podiando in un unico Evento
+		  </div>
+
       </div>
-	  
-      <div class="subcard" onclick="location.href='pages/Medagliere Italiano Totale.html'">
-        Medagliere (per medaglie totali)
-      </div>
-	  
-	  <!-- Terza sotto-casella con ulteriori anni -->
-      <div class="subcard" onclick="toggleSubcards('years')">
-	    Medagliere per anno
-      </div>
-	  
-	  <div id="years" class="subsubcards">
-        <div class="year-grid">
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2007.html'">2007</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2008.html'">2008</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2009.html'">2009</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2010.html'">2010</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2011.html'">2011</div>
+  </div> <!-- Fine macro sezione Medagliere -->
 
-          <!-- Se ci sono più anni, la griglia passerà automaticamente alla riga successiva -->
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2012.html'">2012</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2013.html'">2013</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2014.html'">2014</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2015.html'">2015</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2016.html'">2016</div>
-		  
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2017.html'">2017</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2018.html'">2018</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2019.html'">2019</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2020.html'">2020</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2021.html'">2021</div>
-		  
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2022.html'">2022</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2023.html'">2023</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2024.html'">2024</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano nel 2025.html'">2025</div>
-          <div class="year-cell" onclick="location.href='pages/Medagliere Italiano per anno.html'">Qualsiasi</div>
-        </div>
-      </div>
-  
-	  <div class="subcard" onclick="toggleSubcards('events')">
-		Medagliere per evento
-	  </div>
-	  
-	  <div id="events" class="subsubcards">
-		<div class="event-grid">
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333.svg" alt="3x3 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 222.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/222.svg" alt="2x2 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 444.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444.svg" alt="4x4 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 555.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555.svg" alt="5x5 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 666.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/666.svg" alt="6x6 Cube">
-		  </div>	
+</div>
 
-		  <!-- Se ci sono più eventi, la griglia passerà automaticamente alla riga successiva -->
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 777.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/777.svg" alt="7x7 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333bf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333bf.svg" alt="3x3 Cube Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333fm.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333fm.svg" alt="3x3 Cube Fewest Moves">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333oh.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333oh.svg" alt="3x3 Cube One-Handed">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel clock.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/clock.svg" alt="Rubik's Clock">
-		  </div>		  
-		  
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel minx.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/minx.svg" alt="Megaminx">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel pyram.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/pyram.svg" alt="Pyraminx">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel skewb.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/skewb.svg" alt="Skewb">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel sq1.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/sq1.svg" alt="Square-1">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 444bf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444bf.svg" alt="4x4 Cube Blindfolded">
-		  </div>	
+<!-- Script accordion -->
+<script>
+document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', e => {
+        // se ha onclick=location.href, NON deve aprire l'accordion
+        if (header.getAttribute("onclick")) return;
 
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 555bf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555bf.svg" alt="5x5 Cube Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333mbf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333mbf.svg" alt="3x3 Cube Multiple Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333ft.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333ft.svg" alt="3x3 Cube with Feet">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel magic.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/magic.svg" alt="Rubik's Magic">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel mmagic.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/mmagic.svg" alt="Rubik's Master Magic">
-		  </div>			  
-		</div>
-      </div>
-	  
-	  <div class="subcard" onclick="toggleSubcards('eventXyear')">
-		Medagliere per evento per anno
-	  </div>
-	  
-	  <div id="eventXyear" class="subsubcards">
-		<div class="event-grid">
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333 in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333.svg" alt="3x3 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 222 in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/222.svg" alt="2x2 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 444 in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444.svg" alt="4x4 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 555 in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555.svg" alt="5x5 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 666 in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/666.svg" alt="6x6 Cube">
-		  </div>	
+        const item = header.parentElement;
+        item.classList.toggle('open');
+    });
+});
+</script>
 
-		  <!-- Se ci sono più eventi, la griglia passerà automaticamente alla riga successiva -->
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 777 in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/777.svg" alt="7x7 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333bf in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333bf.svg" alt="3x3 Cube Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333fm in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333fm.svg" alt="3x3 Cube Fewest Moves">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333oh in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333oh.svg" alt="3x3 Cube One-Handed">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel clock in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/clock.svg" alt="Rubik's Clock">
-		  </div>		  
-		  
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel minx in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/minx.svg" alt="Megaminx">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel pyram in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/pyram.svg" alt="Pyraminx">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel skewb in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/skewb.svg" alt="Skewb">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel sq1 in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/sq1.svg" alt="Square-1">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 444bf in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444bf.svg" alt="4x4 Cube Blindfolded">
-		  </div>	
-
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 555bf in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555bf.svg" alt="5x5 Cube Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333mbf in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333mbf.svg" alt="3x3 Cube Multiple Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel 333ft in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333ft.svg" alt="3x3 Cube with Feet">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel magic in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/magic.svg" alt="Rubik's Magic">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano nel mmagic in un anno.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/mmagic.svg" alt="Rubik's Master Magic">
-		  </div>			  
-		</div>
-      </div>
-
-      <div class="subcard" onclick="location.href='pages/Medagliere Italiano solo IC.html'">
-        Medagliere solo Campionati Italiani
-      </div>	  
- 
-      <div class="subcard" onclick="location.href='pages/Medagliere Italiano solo Campionati Esteri.html'">
-        Medagliere solo Campionati Esteri
-      </div>
-	  
-	  <div class="subcard" onclick="toggleSubcards('ICXevent')">
-		Medagliere solo Campionati Italiani per evento
-	  </div>
-	  
-	  <div id="ICXevent" class="subsubcards">
-		<div class="event-grid">
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 333.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333.svg" alt="3x3 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 222.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/222.svg" alt="2x2 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 444.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444.svg" alt="4x4 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 555.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555.svg" alt="5x5 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 666.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/666.svg" alt="6x6 Cube">
-		  </div>	
-
-		  <!-- Se ci sono più eventi, la griglia passerà automaticamente alla riga successiva -->
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 777.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/777.svg" alt="7x7 Cube">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 333bf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333bf.svg" alt="3x3 Cube Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 333fm.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333fm.svg" alt="3x3 Cube Fewest Moves">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 333oh.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333oh.svg" alt="3x3 Cube One-Handed">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel clock.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/clock.svg" alt="Rubik's Clock">
-		  </div>		  
-		  
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel minx.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/minx.svg" alt="Megaminx">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel pyram.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/pyram.svg" alt="Pyraminx">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel skewb.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/skewb.svg" alt="Skewb">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel sq1.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/sq1.svg" alt="Square-1">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 444bf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/444bf.svg" alt="4x4 Cube Blindfolded">
-		  </div>	
-
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 555bf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/555bf.svg" alt="5x5 Cube Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 333mbf.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333mbf.svg" alt="3x3 Cube Multiple Blindfolded">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel 333ft.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/333ft.svg" alt="3x3 Cube with Feet">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel magic.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/magic.svg" alt="Rubik's Magic">
-		  </div>
-		  <div class="event-cell" onclick="location.href='pages/Medagliere Italiano agli IC nel mmagic.html'">
-		  <img src="https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/mmagic.svg" alt="Rubik's Master Magic">
-		  </div>			  
-		</div>
-      </div>	  
-
-      <div class="subcard" onclick="location.href='pages/Medagliere Italiano podiando in un unico evento.html'">
-        Medagliere Podiando in un unico Evento
-      </div>	  	  
-	  
-	  
-	</div>
-  </div>
-  <script>
-    function toggleSubcards(id) {
-      const el = document.getElementById(id);
-      el.style.display = el.style.display === 'block' ? 'none' : 'block';
-    }
-  </script>
 </body>
 </html>
