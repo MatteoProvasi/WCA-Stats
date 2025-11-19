@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Medagliere Italiano ai Campionati Italiani nel Square-1</title>
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../table.css">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../table.css">
 </head>
 <body>
   <h1>Medagliere Italiano ai Campionati Italiani nel Square-1
@@ -22,7 +22,7 @@
   </table>
 
   <script>
-	fetch('../data/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel sq1.csv')
+	fetch('../../../data/medagliere/medagliere italiano IC/Medagliere Italiano agli IC nel sq1.csv')
 	  .then(r => r.text())
 	  .then(text => {
 		const rows = text.trim().split('\n').map(r => r.split(','));

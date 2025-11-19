@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Medagliere Italiano nel 3x3 with Feet</title>
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../table.css">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../table.css">
 </head>
 <body>
   <h1>Medagliere Italiano nel 3x3 with Feet
@@ -22,7 +22,7 @@
   </table>
 
   <script>
-	fetch('../data/medagliere/medagliere per evento/Medagliere Italiano nel 333ft.csv')
+	fetch('../../../data/medagliere/medagliere per evento/Medagliere Italiano nel 333ft.csv')
 	  .then(r => r.text())
 	  .then(text => {
 		const rows = text.trim().split('\n').map(r => r.split(','));
