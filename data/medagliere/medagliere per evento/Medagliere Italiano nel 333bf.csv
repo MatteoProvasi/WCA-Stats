@@ -1,0 +1,91 @@
+﻿#,WCAid,Nome,Oro,Argento,Bronzo,Totale
+1,2011TRON02,Sebastiano Tronto,34,13,9,56
+2,2014MAUR06,Lorenzo Mauro,31,14,8,53
+3,2019RIGO01,Mattia Rigo,26,4,4,34
+4,2009COLO03,Matteo Colombo,21,14,5,40
+5,2008CIRN01,Fabrizio Cirnigliaro,10,9,10,29
+6,2007POLI01,Lorenzo Vigani Poli,8,12,18,38
+7,2022RIPO01,Riccardo Ripoldi,7,8,6,21
+8,2009ROTA01,Marco Rota,6,13,16,35
+9,2012PLAC01,Gianluca Placenti,6,4,4,14
+10,2017DUMM01,Matteo Dummar,5,5,10,20
+11,2009DIMP01,Mariano D'Imperio,4,4,4,12
+12,2023DANT01,Michel D'Antoni,4,3,0,7
+13,2011MONT02,Kevin Montano,4,1,2,7
+14,2022SCHI01,Giacomo Schiava,4,1,1,6
+15,2018SCAL02,Claudio Fabrizio Scalia,4,0,2,6
+16,2018LOCA01,Valerio Locatelli,3,5,1,9
+17,2009SANT01,Simone Santarsiero,3,3,3,9
+18,2012CAPP01,Gabriele Cappelletti,2,7,8,17
+19,2021PAND01,Alessio Pandin,2,6,0,8
+20,2012ACHA01,Carlos Pedro Casado de Achával,2,5,0,7
+21,2009LEVR01,Marco Levrero,2,2,0,4
+22,2014BACC01,Gabriele Bacchieri,2,1,1,4
+23,2013SOLI02,Alessandro Solito,2,1,0,3
+24,2014BENT02,Roberto Bentivoglio,1,6,2,9
+25,2019PAOL02,Federico De Paoli,1,5,0,6
+26,2018CENT02,Giovanni Centili,1,3,3,7
+27,2009CONT01,Giovanni Contardi,1,2,4,7
+28,2016PANN02,Daniele Panna,1,2,1,4
+29,2012NICO02,Alessandro Nicolì,1,1,5,7
+30,2024MESR01,Yassine Mesraoui,1,1,3,5
+31,2008BRAN01,Filippo Brancaleoni,1,1,1,3
+,2013GALL03,Julian Galliano,1,1,1,3
+,2016GAMM01,Vincenzo Maria Gammino,1,1,1,3
+34,2023SPEN01,Raffaele Russo Spena,1,1,0,2
+35,2011VIOL01,Federico Viola,1,0,3,4
+36,2010MAZZ02,Marco Mazzuoccolo,1,0,1,2
+,2025CHIA03,Aidan Chiari,1,0,1,2
+38,2009IOVA01,Massimiliano Iovane,1,0,0,1
+,2013ZACC01,Giorgio Zaccaria,1,0,0,1
+,2014PAVE01,Andrea Pavese,1,0,0,1
+41,2009PROV01,Matteo Provasi,0,4,2,6
+42,2019CRIP01,Jordan Crippa,0,3,2,5
+43,2015CITT01,Marco Edoardo Cittar,0,3,1,4
+44,2022LODA01,Nicolo David Lodato,0,2,4,6
+45,2019GIOR02,Marco Giordano,0,2,3,5
+46,2021MARI04,Paolo Marino,0,2,2,4
+47,2012PICC01,Angelo Piccolella,0,2,1,3
+48,2010PAUL02,Cesare Paulin,0,2,0,2
+,2011CECC01,Miriana Cecchi,0,2,0,2
+,2022SOZI01,Carolina Sozio,0,2,0,2
+51,2021PARO01,Matteo Parodi,0,1,4,5
+,2022MACC01,Evan Maccagnan,0,1,4,5
+53,2018ARNE04,Davide Arnesano,0,1,3,4
+,2021SALE01,Sofia Saletnich,0,1,3,4
+55,2009GIOR01,Nicola Giordani,0,1,2,3
+,2021MARC03,Chiara Marcucci,0,1,2,3
+57,2008SIMO02,Nicolò Simone,0,1,1,2
+,2009CIAN01,Simone Ciancotti,0,1,1,2
+,2009GIOS01,Andrea Di Giosaffatte,0,1,1,2
+,2012ORTU01,Federico Ortu,0,1,1,2
+61,2008ZOFF01,Tommaso Zoffoli,0,1,0,1
+,2009BEVA01,Stefano Bevacqua,0,1,0,1
+,2010BELO01,Marco Belotti,0,1,0,1
+,2011GALA01,Filippo Galasso,0,1,0,1
+,2013MACA01,Francesco Macaluso,0,1,0,1
+,2014BENT01,Claudio Bentivoglio,0,1,0,1
+,2016PAOL01,Damiano Di Paola,0,1,0,1
+,2021PIUM01,Fabio Piumatti,0,1,0,1
+,2022CHIA04,Luca Chiandotto,0,1,0,1
+70,2017ODOR01,Francesco Odorizzi,0,0,3,3
+,2020GUAR01,Marco Guarasci,0,0,3,3
+72,2009BOSI01,Isabella Bosia,0,0,2,2
+,2009KASE02,Christian Kaserer,0,0,2,2
+,2010GIRO01,Paolo Girotti,0,0,2,2
+,2013MANO03,Alessandro Manopulo,0,0,2,2
+,2016GULI02,Salvatore Gulisano,0,0,2,2
+,2017MUZI01,Andrea Muzii,0,0,2,2
+,2021CALZ01,Alessandro Calzoni,0,0,2,2
+79,2008DELU01,Filippo De Lucchi,0,0,1,1
+,2008MONT04,Andrea Egidio Monti,0,0,1,1
+,2011CORS01,Davide Corsi,0,0,1,1
+,2012SIGN01,Marco Signorini,0,0,1,1
+,2013FURL01,Mattia Furlan,0,0,1,1
+,2013SPAD01,Luciano Spada,0,0,1,1
+,2013TRAM03,Giovanni Tramontano,0,0,1,1
+,2015RINA01,Federico Rinalduzzi,0,0,1,1
+,2017TENU01,Enrico Tenuti,0,0,1,1
+,2019GIAN04,Eleonora Giangrandi,0,0,1,1
+,2021GALI02,Carlo Galimberti,0,0,1,1
+,2021GULI01,Samuele Gulino,0,0,1,1

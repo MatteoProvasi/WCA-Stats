@@ -1,0 +1,101 @@
+﻿#,WCAid,Nome,Evento,Anno,Oro,Argento,Bronzo,Totale
+1,2021MARI04,Paolo Marino,clock,2025,17,3,1,21
+2,2016GAMM01,Vincenzo Maria Gammino,777,2024,15,3,4,22
+3,2018LOCA01,Valerio Locatelli,333,2024,14,4,0,18
+4,2019CORO04,Giacomo Daniele Corò,444,2024,14,0,0,14
+5,2019SART01,Daniel Sartori,333,2023,13,10,1,24
+6,2021MARI04,Paolo Marino,666,2024,13,2,1,16
+7,2018LOCA01,Valerio Locatelli,333,2023,12,3,2,17
+8,2016GAMM01,Vincenzo Maria Gammino,777,2025,12,3,0,15
+9,2018LOCA01,Valerio Locatelli,333,2025,12,0,1,13
+10,2019SART01,Daniel Sartori,555,2024,11,8,0,19
+11,2016GAMM01,Vincenzo Maria Gammino,666,2024,11,3,2,16
+12,2019RIGO01,Mattia Rigo,333bf,2024,11,1,0,12
+,2018LOCA01,Valerio Locatelli,333oh,2024,11,1,0,12
+14,2019SART01,Daniel Sartori,333,2024,10,9,4,23
+15,2016GAMM01,Vincenzo Maria Gammino,777,2023,10,3,1,14
+16,2021MARI04,Paolo Marino,777,2024,10,3,0,13
+17,2021MARI04,Paolo Marino,666,2025,10,2,2,14
+18,2021CALZ01,Alessandro Calzoni,minx,2024,10,1,0,11
+19,2021CALZ01,Alessandro Calzoni,minx,2025,10,0,0,10
+20,2019SART01,Daniel Sartori,555,2025,9,8,1,18
+21,2021MARI04,Paolo Marino,555,2024,9,6,3,18
+22,2021MARI04,Paolo Marino,555,2025,9,5,0,14
+23,2021MARC03,Chiara Marcucci,333fm,2025,9,4,2,15
+24,2019CORO04,Giacomo Daniele Corò,444,2023,9,3,3,15
+25,2008CIRN01,Fabrizio Cirnigliaro,333mbf,2011,9,2,0,11
+,2014MAUR06,Lorenzo Mauro,222,2018,9,2,0,11
+27,2014MAUR06,Lorenzo Mauro,pyram,2017,9,1,0,10
+,2014MAUR06,Lorenzo Mauro,333bf,2018,9,1,0,10
+29,2019SART01,Daniel Sartori,333,2025,8,8,3,19
+30,2017DUMM01,Matteo Dummar,clock,2022,8,4,1,13
+,2021MARI04,Paolo Marino,clock,2024,8,4,1,13
+32,2021MARI04,Paolo Marino,clock,2023,8,2,3,13
+33,2022CHIA12,Ismaele Chiarella,pyram,2025,8,1,3,12
+34,2019RIGO01,Mattia Rigo,333bf,2023,8,1,2,11
+35,2014MAUR06,Lorenzo Mauro,pyram,2018,8,1,0,9
+,2019CORO04,Giacomo Daniele Corò,444,2025,8,1,0,9
+37,2019SART01,Daniel Sartori,444,2025,7,5,6,18
+38,2019GIOR02,Marco Giordano,222,2023,7,4,3,14
+39,2021CALZ01,Alessandro Calzoni,skewb,2023,7,3,1,11
+,2022CORB03,Leonardo Corbelli,222,2025,7,3,1,11
+,2021MARI04,Paolo Marino,777,2025,7,3,1,11
+42,2014MAUR06,Lorenzo Mauro,222,2017,7,2,1,10
+,2018ARNE04,Davide Arnesano,pyram,2022,7,2,1,10
+44,2021SALE01,Sofia Saletnich,minx,2025,7,1,5,13
+45,2014MAUR06,Lorenzo Mauro,333bf,2023,7,1,1,9
+,2015FAVA01,Alessandro Fava,minx,2023,7,1,1,9
+,2018RIMI01,Flavio Rimi,444,2024,7,1,1,9
+48,2009MORI05,Paolo Moriello,333,2013,7,1,0,8
+,2014MAUR06,Lorenzo Mauro,skewb,2023,7,1,0,8
+50,2018RICC02,Alessandro Ricci,sq1,2024,7,0,1,8
+51,2009CONT01,Giovanni Contardi,444,2010,7,0,0,7
+,2011TRON02,Sebastiano Tronto,333bf,2017,7,0,0,7
+53,2023EMIL02,Matteo Emiliani,222,2025,6,4,1,11
+54,2019SART01,Daniel Sartori,555,2023,6,2,3,11
+55,2009MORI05,Paolo Moriello,333,2012,6,2,1,9
+56,2018LOCA01,Valerio Locatelli,333oh,2023,6,1,2,9
+,2018LOCA01,Valerio Locatelli,333oh,2025,6,1,2,9
+58,2019SART01,Daniel Sartori,333,2022,6,1,1,8
+59,2014MAUR06,Lorenzo Mauro,skewb,2018,6,1,0,7
+,2011TRON02,Sebastiano Tronto,333bf,2019,6,1,0,7
+,2018RICC02,Alessandro Ricci,sq1,2023,6,1,0,7
+62,2017TENU01,Enrico Tenuti,333fm,2025,6,0,4,10
+63,2014MAUR06,Lorenzo Mauro,333bf,2022,6,0,1,7
+64,2009CONT01,Giovanni Contardi,555,2011,6,0,0,6
+,2013FURL01,Mattia Furlan,444,2015,6,0,0,6
+,2013FURL01,Mattia Furlan,555,2015,6,0,0,6
+,2014MARC05,Leonardo Marchizza,pyram,2016,6,0,0,6
+68,2022CHIA12,Ismaele Chiarella,pyram,2024,5,4,2,11
+69,2017DUMM01,Matteo Dummar,clock,2023,5,3,1,9
+70,2016GAMM01,Vincenzo Maria Gammino,777,2022,5,2,3,10
+71,2022RIPO01,Riccardo Ripoldi,444bf,2025,5,2,1,8
+72,2009CONT01,Giovanni Contardi,444,2011,5,2,0,7
+73,2008SIMO01,Riccardo Simone,333oh,2010,5,1,2,8
+,2014MAUR06,Lorenzo Mauro,333oh,2018,5,1,2,8
+,2021CALZ01,Alessandro Calzoni,skewb,2024,5,1,2,8
+76,2021CALZ01,Alessandro Calzoni,skewb,2025,5,1,1,7
+77,2009CONT01,Giovanni Contardi,333,2011,5,1,0,6
+,2009SANT01,Simone Santarsiero,magic,2011,5,1,0,6
+,2009MORI05,Paolo Moriello,333,2014,5,1,0,6
+,2009ROTA01,Marco Rota,sq1,2017,5,1,0,6
+,2009CONT01,Giovanni Contardi,444,2019,5,1,0,6
+,2019RIGO01,Mattia Rigo,333mbf,2023,5,1,0,6
+83,2021MAGG02,Matteo Maggiali,pyram,2023,5,0,2,7
+,2018RIMI01,Flavio Rimi,sq1,2023,5,0,2,7
+85,2009DIMP01,Mariano D'Imperio,minx,2011,5,0,1,6
+,2014MAUR06,Lorenzo Mauro,222,2019,5,0,1,6
+,2018CENT02,Giovanni Centili,666,2024,5,0,1,6
+88,2008CIRN01,Fabrizio Cirnigliaro,333mbf,2012,5,0,0,5
+,2009DIMP01,Mariano D'Imperio,minx,2012,5,0,0,5
+,2008CIRN01,Fabrizio Cirnigliaro,333mbf,2013,5,0,0,5
+,2013FURL01,Mattia Furlan,777,2015,5,0,0,5
+,2009ROTA01,Marco Rota,skewb,2016,5,0,0,5
+,2017TENU01,Enrico Tenuti,333fm,2024,5,0,0,5
+,2022RIPO01,Riccardo Ripoldi,444bf,2024,5,0,0,5
+,2021ITAL02,Manfredi Italiano,skewb,2025,5,0,0,5
+,2018RIMI01,Flavio Rimi,sq1,2025,5,0,0,5
+97,2019SART01,Daniel Sartori,444,2024,4,9,3,16
+98,2016GAMM01,Vincenzo Maria Gammino,666,2025,4,6,3,13
+99,2018RIMI01,Flavio Rimi,444,2023,4,6,1,11
+100,2024RICC01,Riccardo Fiumefreddo,222,2025,4,4,4,12
