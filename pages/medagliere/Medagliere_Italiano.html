@@ -22,7 +22,7 @@
   </table>
 
   <script>
-	fetch('../data/medagliere/Medagliere_Italiano.csv')
+	fetch('../../data/medagliere/Medagliere_Italiano.csv')
 	  .then(r => r.text())
 	  .then(text => {
 		const rows = text.trim().split('\n').map(r => r.split(','));
