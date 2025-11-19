@@ -1,0 +1,111 @@
+﻿#,WCAid,Nome,Oro,Argento,Bronzo,Totale
+1,2021MARI04,Paolo Marino,49,23,9,81
+2,2019SART01,Daniel Sartori,27,28,16,71
+3,2016GAMM01,Vincenzo Maria Gammino,22,16,10,48
+4,2018LOCA01,Valerio Locatelli,22,10,7,39
+5,2018RIMI01,Flavio Rimi,20,12,11,43
+6,2021SALE01,Sofia Saletnich,19,19,14,52
+7,2021CALZ01,Alessandro Calzoni,18,3,6,27
+8,2022RIPO01,Riccardo Ripoldi,13,9,7,29
+9,2024RICC01,Riccardo Fiumefreddo,11,12,8,31
+10,2022CORB03,Leonardo Corbelli,10,11,6,27
+11,2019CORO04,Giacomo Daniele Corò,10,3,12,25
+12,2021MARC03,Chiara Marcucci,9,5,5,19
+13,2022CHIA12,Ismaele Chiarella,9,1,4,14
+14,2014MAUR06,Lorenzo Mauro,8,16,8,32
+15,2021ZANG01,Alessandro Zangolini,8,14,18,40
+16,2021ITAL02,Manfredi Italiano,8,2,1,11
+17,2012NICO02,Alessandro Nicolì,7,13,13,33
+18,2017TENU01,Enrico Tenuti,7,8,12,27
+19,2023EMIL02,Matteo Emiliani,7,7,8,22
+20,2011TRON02,Sebastiano Tronto,7,3,6,16
+21,2009ROTA01,Marco Rota,6,7,8,21
+22,2014BACC01,Gabriele Bacchieri,6,4,5,15
+23,2018ARNE04,Davide Arnesano,6,3,2,11
+24,2018SCAL02,Claudio Fabrizio Scalia,6,0,4,10
+25,2021PARO01,Matteo Parodi,5,8,4,17
+26,2023DANT01,Michel D'Antoni,5,6,3,14
+27,2023NICC01,Flavio Niccoli,5,2,2,9
+28,2019RIGO01,Mattia Rigo,5,1,0,6
+29,2023CARO07,Leonardo Carosio,4,3,2,9
+30,2022MART13,Valerio Martinelli,4,2,2,8
+31,2021PAND01,Alessio Pandin,3,4,3,10
+32,2017BRAS01,Luca Brasini,3,3,4,10
+33,2022TALA03,Valentina Trinca Talalin,3,3,2,8
+34,2012ACHA01,Carlos Pedro Casado de Achával,3,3,1,7
+35,2022BOLD01,Loris Boldi,3,1,2,6
+36,2023CREA02,Christian Crea,2,11,9,22
+37,2020TOMA01,Fabian Tomasović,2,7,12,21
+38,2022RANN01,Rocco Rannisi,2,5,3,10
+39,2024RUSS02,Gabriel La Russa,2,4,1,7
+40,2018CENT02,Giovanni Centili,2,3,4,9
+41,2021NOVI01,Alessia Novizio,2,3,3,8
+42,2023BARB17,Nicolò Barbisan,2,2,3,7
+43,2022FIOR04,Francesco Fiore,2,2,2,6
+44,2022CERR01,Luca Cerrato,2,2,0,4
+45,2014RAPO01,Tommaso Raposio,2,1,4,7
+46,2023PICH01,Maximilian Pichler,2,0,3,5
+47,2023FABE01,Gabriele Fabellini,2,0,1,3
+48,2022MANT03,Alberto Mantovani,1,8,14,23
+49,2022MACC01,Evan Maccagnan,1,6,8,15
+50,2021NARB01,Dario Angelo Narbone,1,6,2,9
+51,2015PERU02,Vittorio Maria Perucatti,1,4,2,7
+52,2017DUMM01,Matteo Dummar,1,4,0,5
+53,2022CORO03,Giovanni Montagna Coronado,1,3,2,6
+54,2023POLI03,Riccardo Polignano,1,3,1,5
+,2024SIME01,Antonello Simeone,1,3,1,5
+56,2016GASP01,Pietro Gasparetto,1,2,6,9
+57,2023PISC02,Giovanni Piscitelli,1,2,5,8
+58,2022SCHI01,Giacomo Schiava,1,2,2,5
+,2022SOZI01,Carolina Sozio,1,2,2,5
+60,2022CHIA13,Federico Chiarello,1,2,1,4
+,2023BUSC02,Lorenzo Calogero Buscemi,1,2,1,4
+,2024MESR01,Yassine Mesraoui,1,2,1,4
+63,2012CAPP01,Gabriele Cappelletti,1,1,3,5
+,2025CHIA03,Aidan Chiari,1,1,3,5
+65,2022LESC02,Sebastiano Leschiutta,1,1,1,3
+66,2022ROSS02,Fabio Rossi,1,0,3,4
+67,2022CARU01,Gianluca Caruso,1,0,2,3
+68,2021MAGG02,Matteo Maggiali,1,0,1,2
+69,2019CAMI03,Davide Camilleri,1,0,0,1
+,2022CAPA01,Rocco Daniele Capanna,1,0,0,1
+71,2016PAOL01,Damiano Di Paola,0,6,10,16
+72,2022LODA01,Nicolo David Lodato,0,5,4,9
+73,2023SANN03,Lorenzo Sannibale,0,4,1,5
+74,2013TRAM03,Giovanni Tramontano,0,3,6,9
+75,2021PIUM01,Fabio Piumatti,0,3,2,5
+76,2009PROV01,Matteo Provasi,0,2,7,9
+77,2022CONT10,Angelo Contrino,0,2,2,4
+,2022PISC01,Giovanni Pische,0,2,2,4
+79,2019CRIP01,Jordan Crippa,0,2,1,3
+,2023PASS02,Alessio Passerini,0,2,1,3
+81,2012CANT02,Simone Cantarelli,0,1,6,7
+82,2022CHIA11,Giosuele Chiarella,0,1,5,6
+83,2012PLAC01,Gianluca Placenti,0,1,2,3
+84,2016CANC03,Samuele Cancemi,0,1,1,2
+,2018GALL13,Alessandro Galloppo,0,1,1,2
+,2019MONT15,Alberto Monterisi,0,1,1,2
+,2020GUAR01,Marco Guarasci,0,1,1,2
+,2025HUAN57,Tommaso Huang,0,1,1,2
+89,2009COLO03,Matteo Colombo,0,1,0,1
+,2016LONG18,Gabriele Longo,0,1,0,1
+,2022RIBE02,Vittorio Ribechini,0,1,0,1
+,2023SPEN01,Raffaele Russo Spena,0,1,0,1
+,2024FRAU01,Anita Francesca Frau,0,1,0,1
+,2024PRIS02,Giulio Prisciantelli,0,1,0,1
+,2025FEGH01,Leonardo Feghali,0,1,0,1
+96,2018PERE31,Mattia Perego,0,0,2,2
+,2024CIBE01,Matteo Cibene,0,0,2,2
+,2024PERD01,Alessia Perdichizzi,0,0,2,2
+99,2010BELO01,Marco Belotti,0,0,1,1
+,2016GULI02,Salvatore Gulisano,0,0,1,1
+,2016IEZZ01,Francesco Iezzi,0,0,1,1
+,2016RACI03,Riccardo Raciti,0,0,1,1
+,2019GIOR02,Marco Giordano,0,0,1,1
+,2021GALI02,Carlo Galimberti,0,0,1,1
+,2021GULI01,Samuele Gulino,0,0,1,1
+,2022INFU01,Simone Infunti,0,0,1,1
+,2022PRET04,Federico Preti,0,0,1,1
+,2023PROV04,Riccardo Provenzani,0,0,1,1
+,2023TRAN20,Flavio Tranquilli,0,0,1,1
+,2024PAGO01,Giuseppe Pagoria,0,0,1,1

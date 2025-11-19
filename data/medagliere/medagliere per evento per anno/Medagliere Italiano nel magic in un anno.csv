@@ -1,0 +1,48 @@
+﻿#,WCAid,Nome,Anno,Oro,Argento,Bronzo,Totale
+1,2009SANT01,Simone Santarsiero,2011,5,1,0,6
+2,2008BRAN01,Filippo Brancaleoni,2010,4,1,0,5
+3,2008BRAN01,Filippo Brancaleoni,2011,3,1,1,5
+4,2008BRAN01,Filippo Brancaleoni,2009,2,1,0,3
+5,2009SANT01,Simone Santarsiero,2012,2,0,0,2
+6,2009SANT01,Simone Santarsiero,2010,1,4,0,5
+7,2009SANT01,Simone Santarsiero,2009,1,1,0,2
+8,2007POLI01,Lorenzo Vigani Poli,2012,1,0,1,2
+9,2007POLI01,Lorenzo Vigani Poli,2010,1,0,0,1
+,2009GRAV01,Lorenzo Gravina,2010,1,0,0,1
+,2009RUSS02,Massimo Russo,2010,1,0,0,1
+,2010QUAG01,Damiano Quagliotto,2010,1,0,0,1
+,2010VERD01,Francesco Verdicchio,2010,1,0,0,1
+,2009CIAN01,Simone Ciancotti,2011,1,0,0,1
+,2008BRAN01,Filippo Brancaleoni,2012,1,0,0,1
+,2012ANON04,Anonymous,2012,1,0,0,1
+17,2009DIMP01,Mariano D'Imperio,2010,0,2,0,2
+,2010QUAG01,Damiano Quagliotto,2011,0,2,0,2
+19,2007POLI01,Lorenzo Vigani Poli,2009,0,1,1,2
+,2008VIGA01,Giacomo Vigani,2011,0,1,1,2
+21,2007SCIB01,Emanuele Scibilia,2007,0,1,0,1
+,2008VIGA01,Giacomo Vigani,2008,0,1,0,1
+,2009GIOR02,Martino Giorgetti,2010,0,1,0,1
+,2009LEVR01,Marco Levrero,2010,0,1,0,1
+,2009KASE02,Christian Kaserer,2011,0,1,0,1
+,2010CHIO01,Roberta Chiovoloni,2011,0,1,0,1
+,2010GIRO01,Paolo Girotti,2012,0,1,0,1
+,2010QUAG01,Damiano Quagliotto,2012,0,1,0,1
+,2011CECC01,Miriana Cecchi,2012,0,1,0,1
+30,2006BINE01,Matteo Binello,2007,0,0,1,1
+,2009DIMP01,Mariano D'Imperio,2009,0,0,1,1
+,2009GAGG02,Andrea Gaggioli,2009,0,0,1,1
+,2009SOAR01,Giosuè Soardo,2009,0,0,1,1
+,2008CIRN01,Fabrizio Cirnigliaro,2010,0,0,1,1
+,2008SIMO02,Nicolò Simone,2010,0,0,1,1
+,2009CIAN01,Simone Ciancotti,2010,0,0,1,1
+,2009CONT01,Giovanni Contardi,2010,0,0,1,1
+,2009MANZ01,Luigi Manzo,2010,0,0,1,1
+,2010CHIO01,Roberta Chiovoloni,2010,0,0,1,1
+,2010FRAN04,Mattia Francardi,2010,0,0,1,1
+,2008SIMO02,Nicolò Simone,2011,0,0,1,1
+,2009CONT01,Giovanni Contardi,2011,0,0,1,1
+,2009GRAV01,Lorenzo Gravina,2011,0,0,1,1
+,2010CHAN14,Letian Mattia Chang,2011,0,0,1,1
+,2010GIRO01,Paolo Girotti,2011,0,0,1,1
+,2009CIAN01,Simone Ciancotti,2012,0,0,1,1
+,2009MORI05,Paolo Moriello,2012,0,0,1,1

@@ -1,0 +1,86 @@
+﻿#,WCAid,Nome,Oro,Argento,Bronzo,Totale
+1,2018LOCA01,Valerio Locatelli,46,8,4,58
+2,2019SART01,Daniel Sartori,37,28,10,75
+3,2009MORI05,Paolo Moriello,28,19,3,50
+4,2009CONT01,Giovanni Contardi,18,6,4,28
+5,2009IOVA01,Massimiliano Iovane,11,9,6,26
+6,2008SIMO01,Riccardo Simone,10,7,9,26
+7,2019CORO04,Giacomo Daniele Corò,8,14,11,33
+8,2013MANO03,Alessandro Manopulo,7,10,3,20
+9,2011BARB03,Nicola Barbaro,5,9,1,15
+10,2014MAUR06,Lorenzo Mauro,5,7,3,15
+11,2021SALE01,Sofia Saletnich,5,2,5,12
+12,2013FURL01,Mattia Furlan,4,5,5,14
+13,2011ANNE01,Edoardo Annesi,4,1,3,8
+14,2012NICO02,Alessandro Nicolì,3,12,15,30
+15,2018RIMI01,Flavio Rimi,3,10,7,20
+16,2008ZOFF01,Tommaso Zoffoli,3,8,1,12
+17,2013DISA01,Edoardo Disarò,3,3,2,8
+18,2017GALE01,Mattia Galentino,3,3,0,6
+19,2024RICC01,Riccardo Fiumefreddo,3,1,0,4
+20,2009DIMP01,Mariano D'Imperio,2,4,4,10
+21,2018CENT02,Giovanni Centili,2,3,4,9
+22,2021ITAL02,Manfredi Italiano,2,3,2,7
+23,2009BEVA01,Stefano Bevacqua,2,2,8,12
+24,2022CERR01,Luca Cerrato,2,1,0,3
+25,2011BASA01,Federico Basanese,2,0,1,3
+26,2022CORB03,Leonardo Corbelli,1,5,3,9
+27,2012CANT02,Simone Cantarelli,1,3,6,10
+28,2011TRON02,Sebastiano Tronto,1,3,3,7
+29,2009SANT01,Simone Santarsiero,1,2,4,7
+30,2011VERD01,Andrew Verducci,1,2,1,4
+,2011ZORZ01,Stefano Zorzi,1,2,1,4
+32,2019CAMI03,Davide Camilleri,1,2,0,3
+33,2021MARI04,Paolo Marino,1,1,4,6
+34,2016GAMM01,Vincenzo Maria Gammino,1,1,1,3
+35,2016CANC03,Samuele Cancemi,1,0,2,3
+36,2023FABE01,Gabriele Fabellini,1,0,1,2
+37,2008BRAN01,Filippo Brancaleoni,0,6,2,8
+38,2014RAPO01,Tommaso Raposio,0,3,4,7
+39,2010SARD01,Andrea Lo Sardo,0,2,5,7
+40,2012CAPP01,Gabriele Cappelletti,0,2,4,6
+41,2007POLI01,Lorenzo Vigani Poli,0,2,3,5
+,2009PROV01,Matteo Provasi,0,2,3,5
+,2017BRAS01,Luca Brasini,0,2,3,5
+,2021ZANG01,Alessandro Zangolini,0,2,3,5
+45,2009ROTA01,Marco Rota,0,1,5,6
+46,2020TOMA01,Fabian Tomasović,0,1,4,5
+,2023CREA02,Christian Crea,0,1,4,5
+48,2012SIGN01,Marco Signorini,0,1,3,4
+49,2014MATT05,Gabriele De Matteis,0,1,1,2
+,2021NARB01,Dario Angelo Narbone,0,1,1,2
+,2022LODA01,Nicolo David Lodato,0,1,1,2
+,2022MANT03,Alberto Mantovani,0,1,1,2
+,2022RIBE02,Vittorio Ribechini,0,1,1,2
+,2023CARO07,Leonardo Carosio,0,1,1,2
+,2024RUSS02,Gabriel La Russa,0,1,1,2
+56,2009TESS01,Giovanni Tessari,0,1,0,1
+,2012ANON04,Anonymous,0,1,0,1
+,2014COLI02,Gianluca Colizzi,0,1,0,1
+,2017PILL04,Lorenzo Pillon,0,1,0,1
+,2018SCAL02,Claudio Fabrizio Scalia,0,1,0,1
+61,2009KASE02,Christian Kaserer,0,0,3,3
+,2015FAVA01,Alessandro Fava,0,0,3,3
+,2015PERU02,Vittorio Maria Perucatti,0,0,3,3
+,2018FORL01,Nicola Forlai,0,0,3,3
+,2018RICC02,Alessandro Ricci,0,0,3,3
+66,2009CAIM01,Danilo Caimano,0,0,2,2
+,2017PIER03,Davide Pierrat,0,0,2,2
+,2022ROSS02,Fabio Rossi,0,0,2,2
+,2023PISC02,Giovanni Piscitelli,0,0,2,2
+70,2008LOMB01,Pasquale Lombardozzi,0,0,1,1
+,2009CALZ01,Alessandro Calzolaro,0,0,1,1
+,2009LEVR01,Marco Levrero,0,0,1,1
+,2011MONT02,Kevin Montano,0,0,1,1
+,2012MAZZ02,Matteo Mazzini,0,0,1,1
+,2014BENT01,Claudio Bentivoglio,0,0,1,1
+,2014BENT02,Roberto Bentivoglio,0,0,1,1
+,2014BUCC01,Daniele Buccolieri,0,0,1,1
+,2015PRIN02,Andrea Princic,0,0,1,1
+,2017TENU01,Enrico Tenuti,0,0,1,1
+,2018CATA01,Diego Catà,0,0,1,1
+,2018GALL13,Alessandro Galloppo,0,0,1,1
+,2019MONT15,Alberto Monterisi,0,0,1,1
+,2021CALZ01,Alessandro Calzoni,0,0,1,1
+,2022CONT10,Angelo Contrino,0,0,1,1
+,2023AVER04,Manuel Aversano,0,0,1,1

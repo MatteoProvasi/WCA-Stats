@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Medagliere Italiano nel 2x2</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../table.css">
+</head>
+<body>
+  <h1>Medagliere Italiano nel 2x2
+  <br>
+	<span style="font-size: 0.5em; font-style: italic; color: gray;">
+		Medagliere italiano nell'evento 2x2
+	</span>
+  </br>
+  </h1>
+  <a href="https://matteoprovasi.github.io/WCA-Stats">← Torna alla home</a>
+
+  <table id="data-table" border="1" style="margin:auto; margin-top:20px; border-collapse: collapse;">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+	fetch('../data/medagliere/medagliere per evento/Medagliere Italiano nel 222.csv')
+	  .then(r => r.text())
+	  .then(text => {
+		const rows = text.trim().split('\n').map(r => r.split(','));
+		const [header, ...data] = rows;
+
+		const thead = document.querySelector('#data-table thead');
+		const tbody = document.querySelector('#data-table tbody');
+
+		thead.innerHTML = '<tr>' + header.map(h => `<th>${h}</th>`).join('') + '</tr>';
+
+		tbody.innerHTML = data.map(row => {
+		  return '<tr>' + row.map((cell, i) => {
+			if (i === 1) { // seconda colonna (indice 1) = WCAid
+			  const url = `https://www.worldcubeassociation.org/persons/${cell}`;
+			  return `<td><a href="${url}" target="_blank">${cell}</a></td>`;
+			}
+			return `<td>${cell}</td>`;
+		  }).join('') + '</tr>';
+		}).join('');
+	  });
+	</script>
+</body>
+</html>

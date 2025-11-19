@@ -1,0 +1,102 @@
+﻿#,WCAid,Nome,Anno,Oro,Argento,Bronzo,Totale
+1,2019RIGO01,Mattia Rigo,2024,11,1,0,12
+2,2014MAUR06,Lorenzo Mauro,2018,9,1,0,10
+3,2019RIGO01,Mattia Rigo,2023,8,1,2,11
+4,2014MAUR06,Lorenzo Mauro,2023,7,1,1,9
+5,2011TRON02,Sebastiano Tronto,2017,7,0,0,7
+6,2011TRON02,Sebastiano Tronto,2019,6,1,0,7
+7,2014MAUR06,Lorenzo Mauro,2022,6,0,1,7
+8,2008CIRN01,Fabrizio Cirnigliaro,2011,4,2,3,9
+9,2014MAUR06,Lorenzo Mauro,2017,4,1,3,8
+10,2009COLO03,Matteo Colombo,2012,4,1,0,5
+,2012PLAC01,Gianluca Placenti,2016,4,1,0,5
+12,2018SCAL02,Claudio Fabrizio Scalia,2025,4,0,1,5
+13,2009COLO03,Matteo Colombo,2013,4,0,0,4
+,2011TRON02,Sebastiano Tronto,2014,4,0,0,4
+,2011TRON02,Sebastiano Tronto,2015,4,0,0,4
+,2011TRON02,Sebastiano Tronto,2016,4,0,0,4
+,2019RIGO01,Mattia Rigo,2025,4,0,0,4
+18,2022RIPO01,Riccardo Ripoldi,2024,3,4,3,10
+19,2009ROTA01,Marco Rota,2025,3,3,1,7
+20,2019RIGO01,Mattia Rigo,2022,3,2,2,7
+21,2008CIRN01,Fabrizio Cirnigliaro,2013,3,2,0,5
+,2023DANT01,Michel D'Antoni,2025,3,2,0,5
+23,2009ROTA01,Marco Rota,2023,3,1,5,9
+24,2022RIPO01,Riccardo Ripoldi,2025,3,1,3,7
+25,2009COLO03,Matteo Colombo,2015,3,1,1,5
+26,2009COLO03,Matteo Colombo,2010,3,1,0,4
+,2011TRON02,Sebastiano Tronto,2018,3,1,0,4
+28,2021PAND01,Alessio Pandin,2025,2,3,0,5
+29,2007POLI01,Lorenzo Vigani Poli,2018,2,2,5,9
+30,2007POLI01,Lorenzo Vigani Poli,2019,2,2,2,6
+31,2011TRON02,Sebastiano Tronto,2022,2,2,1,5
+32,2009COLO03,Matteo Colombo,2014,2,2,0,4
+,2018LOCA01,Valerio Locatelli,2025,2,2,0,4
+34,2007POLI01,Lorenzo Vigani Poli,2014,2,1,2,5
+35,2009DIMP01,Mariano D'Imperio,2011,2,1,1,4
+,2017DUMM01,Matteo Dummar,2019,2,1,1,4
+37,2009LEVR01,Marco Levrero,2010,2,1,0,3
+,2011MONT02,Kevin Montano,2012,2,1,0,3
+39,2014MAUR06,Lorenzo Mauro,2019,2,0,1,3
+40,2009COLO03,Matteo Colombo,2011,2,0,0,2
+,2022SCHI01,Giacomo Schiava,2023,2,0,0,2
+,2022SCHI01,Giacomo Schiava,2024,2,0,0,2
+43,2014MAUR06,Lorenzo Mauro,2024,1,5,0,6
+44,2017DUMM01,Matteo Dummar,2022,1,4,1,6
+,2014MAUR06,Lorenzo Mauro,2025,1,4,1,6
+46,2012CAPP01,Gabriele Cappelletti,2023,1,4,0,5
+47,2018LOCA01,Valerio Locatelli,2024,1,3,1,5
+48,2019PAOL02,Federico De Paoli,2023,1,3,0,4
+,2022RIPO01,Riccardo Ripoldi,2023,1,3,0,4
+,2012ACHA01,Carlos Pedro Casado de Achával,2025,1,3,0,4
+51,2008CIRN01,Fabrizio Cirnigliaro,2014,1,2,1,4
+52,2007POLI01,Lorenzo Vigani Poli,2015,1,2,0,3
+,2012ACHA01,Carlos Pedro Casado de Achával,2024,1,2,0,3
+54,2011TRON02,Sebastiano Tronto,2025,1,1,5,7
+55,2008CIRN01,Fabrizio Cirnigliaro,2012,1,1,2,4
+56,2009DIMP01,Mariano D'Imperio,2012,1,1,1,3
+,2007POLI01,Lorenzo Vigani Poli,2013,1,1,1,3
+,2009COLO03,Matteo Colombo,2016,1,1,1,3
+,2009SANT01,Simone Santarsiero,2022,1,1,1,3
+,2011TRON02,Sebastiano Tronto,2024,1,1,1,3
+,2016GAMM01,Vincenzo Maria Gammino,2024,1,1,1,3
+62,2011TRON02,Sebastiano Tronto,2011,1,1,0,2
+,2011TRON02,Sebastiano Tronto,2012,1,1,0,2
+,2013SOLI02,Alessandro Solito,2014,1,1,0,2
+,2012PLAC01,Gianluca Placenti,2015,1,1,0,2
+,2009SANT01,Simone Santarsiero,2016,1,1,0,2
+,2016PANN02,Daniele Panna,2016,1,1,0,2
+,2014MAUR06,Lorenzo Mauro,2021,1,1,0,2
+,2014BACC01,Gabriele Bacchieri,2024,1,1,0,2
+,2018CENT02,Giovanni Centili,2024,1,1,0,2
+,2024MESR01,Yassine Mesraoui,2025,1,1,0,2
+72,2017DUMM01,Matteo Dummar,2023,1,0,3,4
+73,2008CIRN01,Fabrizio Cirnigliaro,2010,1,0,2,3
+,2009CONT01,Giovanni Contardi,2011,1,0,2,3
+,2009SANT01,Simone Santarsiero,2017,1,0,2,3
+,2017DUMM01,Matteo Dummar,2024,1,0,2,3
+77,2010MAZZ02,Marco Mazzuoccolo,2011,1,0,1,2
+,2011MONT02,Kevin Montano,2013,1,0,1,2
+,2011MONT02,Kevin Montano,2014,1,0,1,2
+,2011VIOL01,Federico Viola,2015,1,0,1,2
+,2009DIMP01,Mariano D'Imperio,2016,1,0,1,2
+,2012NICO02,Alessandro Nicolì,2022,1,0,1,2
+,2009COLO03,Matteo Colombo,2023,1,0,1,2
+,2012CAPP01,Gabriele Cappelletti,2024,1,0,1,2
+,2014BACC01,Gabriele Bacchieri,2025,1,0,1,2
+,2025CHIA03,Aidan Chiari,2025,1,0,1,2
+87,2009IOVA01,Massimiliano Iovane,2009,1,0,0,1
+,2008BRAN01,Filippo Brancaleoni,2010,1,0,0,1
+,2013SOLI02,Alessandro Solito,2013,1,0,0,1
+,2013ZACC01,Giorgio Zaccaria,2013,1,0,0,1
+,2012PLAC01,Gianluca Placenti,2014,1,0,0,1
+,2014PAVE01,Andrea Pavese,2014,1,0,0,1
+,2013GALL03,Julian Galliano,2017,1,0,0,1
+,2014BENT02,Roberto Bentivoglio,2018,1,0,0,1
+,2009COLO03,Matteo Colombo,2019,1,0,0,1
+,2023DANT01,Michel D'Antoni,2024,1,0,0,1
+,2023SPEN01,Raffaele Russo Spena,2024,1,0,0,1
+98,2009COLO03,Matteo Colombo,2018,0,4,0,4
+99,2007POLI01,Lorenzo Vigani Poli,2017,0,3,2,5
+,2009ROTA01,Marco Rota,2022,0,3,2,5
+,2011TRON02,Sebastiano Tronto,2023,0,3,2,5
