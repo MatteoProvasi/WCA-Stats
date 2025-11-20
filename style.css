@@ -193,3 +193,11 @@ th, td {
   display: inline-block;
 }
 
+.event-icon-large {
+  width: 35px;
+  height: 35px;
+  margin-right: 6px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
