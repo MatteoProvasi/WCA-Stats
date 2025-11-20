@@ -21,28 +21,88 @@
     <tbody></tbody>
   </table>
 
-  <script>
-	fetch('../../data/medagliere/Medagliere Italiano podiando in un unico evento.csv')
-	  .then(r => r.text())
-	  .then(text => {
-		const rows = text.trim().split('\n').map(r => r.split(','));
-		const [header, ...data] = rows;
+<script>
+const IMAGE_BASE = "https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/";
 
-		const thead = document.querySelector('#data-table thead');
-		const tbody = document.querySelector('#data-table tbody');
+// funzione che decide se un token è plausibile come evento
+function isEventToken(tok) {
+  if (!tok) return false;
+  // token pulito: solo lettere, numeri e minuscole, permit - and _
+  return /^[0-9a-zA-Z\-]+$/.test(tok);
+}
 
-		thead.innerHTML = '<tr>' + header.map(h => `<th>${h}</th>`).join('') + '</tr>';
+// renderizza i token (es: "333", "222 333", "clock", "sq1,333")
+function renderEventsCell(text) {
+  if (!text) return "";
+  // normalizza: sostituisci virgole/;/:/slash con spazio, poi split
+  const tokens = text
+    .replace(/[,\;\/]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .map(t => t.trim().toLowerCase())
+    .filter(t => t.length > 0);
 
-		tbody.innerHTML = data.map(row => {
-		  return '<tr>' + row.map((cell, i) => {
-			if (i === 1) { // seconda colonna (indice 1) = WCAid
-			  const url = `https://www.worldcubeassociation.org/persons/${cell}`;
-			  return `<td><a href="${url}" target="_blank">${cell}</a></td>`;
-			}
-			return `<td>${cell}</td>`;
-		  }).join('') + '</tr>';
-		}).join('');
-	  });
-	</script>
+  // se non ci sono token plausibili, ritorna il testo originale (escape)
+  if (!tokens.length) return escapeHtml(text);
+
+  // costruisci immagini; prova a usare direttamente token.svg
+  return tokens.map(tok => {
+    if (!isEventToken(tok)) return escapeHtml(tok);
+    const src = `${IMAGE_BASE}${tok}.svg`;
+    // tooltip = token; potresti voler migliorare con nomi umani
+    // Link opzionale: se vuoi che l'icona punti a qualcosa, aggiungi <a href="...">...</a>
+    return `<img class="event-icon" src="${src}" alt="${tok}" title="${tok}">`;
+  }).join(" ");
+}
+
+// escape semplice per prevenire HTML injection quando fallback a testo
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+// fetch e build tabella
+fetch('../../data/vittorie-podi/Maggior numero di eventi vinti.csv')
+  .then(r => r.text())
+  .then(text => {
+    // split rows in modo robusto (non gestisce campi con virgole racchiuse in quote; se servisse, usare parsing CSV)
+    const rows = text.trim().split('\n').map(r => r.split(','));
+    const [header, ...data] = rows;
+
+    const thead = document.querySelector('#data-table thead');
+    const tbody = document.querySelector('#data-table tbody');
+
+    thead.innerHTML = '<tr>' + header.map(h => `<th>${escapeHtml(h)}</th>`).join('') + '</tr>';
+
+    tbody.innerHTML = data.map(row => {
+      return '<tr>' + row.map((cell = '', i) => {
+        // pulisci cella
+        const raw = cell.trim();
+
+        // 1) seconda colonna (indice 1) -> WCA ID linkabile
+        if (i === 1) {
+          const url = `https://www.worldcubeassociation.org/persons/${raw}`;
+          return `<td><a href="${url}" target="_blank" rel="noopener">${escapeHtml(raw)}</a></td>`;
+        }
+
+        // 2) quarta colonna (indice 3) -> eventi -> immagini
+        if (i === 3) {
+          // assegna classe speciale per CSS
+          const inner = renderEventsCell(raw);
+          return `<td class="events-cell">${inner}</td>`;
+        }
+
+        // 3) fallback: testo normale (escape)
+        return `<td>${escapeHtml(raw)}</td>`;
+      }).join('') + '</tr>';
+    }).join('');
+  })
+  .catch(err => {
+    console.error("Errore nel fetch CSV:", err);
+  });
+</script>
 </body>
 </html>
