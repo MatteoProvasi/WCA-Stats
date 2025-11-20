@@ -383,14 +383,25 @@ document.querySelectorAll('.accordion-header').forEach(header => {
 });
 
 // Codice per renderizzare i codici evento nelle immagini
-const IMAGE_BASE = "https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/";
+document.addEventListener("DOMContentLoaded", () => {
 
-function renderCell(value) {
-    const items = value.split(" ");
-    return items
-        .map(v => `<img src="${IMAGE_BASE}${v}.svg" width="35" alt="">`)
-        .join(" ");
-}
+    const IMAGE_BASE = "https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/";
+
+    function renderCell(value) {
+        if (!value) return "";
+        const items = value.split(" ");
+        return items
+            .map(v => `<img src="${IMAGE_BASE}${v}.svg" width="35" alt="${v}">`)
+            .join(" ");
+    }
+
+    // Seleziona tutte le celle con la classe "event-codes"
+    document.querySelectorAll("td.event-codes").forEach(cell => {
+        const text = cell.textContent.trim();
+        cell.innerHTML = renderCell(text);
+    });
+
+});
 </script>
 
 </body>

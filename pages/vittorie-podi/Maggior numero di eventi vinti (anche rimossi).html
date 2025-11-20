@@ -22,27 +22,48 @@
   </table>
 
   <script>
-	fetch('../../data/vittorie-podi/Maggior numero di eventi vinti (anche rimossi).csv')
-	  .then(r => r.text())
-	  .then(text => {
-		const rows = text.trim().split('\n').map(r => r.split(','));
-		const [header, ...data] = rows;
+const IMAGE_BASE = "https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/";
 
-		const thead = document.querySelector('#data-table thead');
-		const tbody = document.querySelector('#data-table tbody');
+// converte una cella che contiene eventi in immagini
+function renderEvents(text) {
+    if (!text) return "";
+    return text
+        .trim()
+        .split(" ")
+        .map(ev => `<img src="${IMAGE_BASE}${ev}.svg" width="35" alt="${ev}">`)
+        .join(" ");
+}
 
-		thead.innerHTML = '<tr>' + header.map(h => `<th>${h}</th>`).join('') + '</tr>';
+fetch('../../data/vittorie-podi/Maggior numero di eventi vinti (anche rimossi).csv')
+  .then(r => r.text())
+  .then(text => {
+    const rows = text.trim().split('\n').map(r => r.split(','));
+    const [header, ...data] = rows;
 
-		tbody.innerHTML = data.map(row => {
-		  return '<tr>' + row.map((cell, i) => {
-			if (i === 1) { // seconda colonna (indice 1) = WCAid
-			  const url = `https://www.worldcubeassociation.org/persons/${cell}`;
-			  return `<td><a href="${url}" target="_blank">${cell}</a></td>`;
-			}
-			return `<td>${cell}</td>`;
-		  }).join('') + '</tr>';
-		}).join('');
-	  });
-	</script>
+    const thead = document.querySelector('#data-table thead');
+    const tbody = document.querySelector('#data-table tbody');
+
+    thead.innerHTML = '<tr>' + header.map(h => `<th>${h}</th>`).join('') + '</tr>';
+
+    tbody.innerHTML = data.map(row => {
+      return '<tr>' + row.map((cell, i) => {
+
+        // *** 1) Rende cliccabile la colonna WCA ID ***
+        if (i === 1) {
+          const url = `https://www.worldcubeassociation.org/persons/${cell}`;
+          return `<td><a href="${url}" target="_blank">${cell}</a></td>`;
+        }
+
+        // *** 2) Prova a capire se il contenuto è un elenco di eventi ***
+        if (/^[0-9a-zA-Z ]+$/.test(cell) && cell.match(/[0-9]/)) {
+          // esempio: "333", "222 333", "clock", "333oh"
+          return `<td>${renderEvents(cell)}</td>`;
+        }
+
+        return `<td>${cell}</td>`;
+      }).join('') + '</tr>';
+    }).join('');
+  });
+  </script>
 </body>
 </html>
