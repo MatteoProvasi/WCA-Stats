@@ -2,15 +2,15 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Medagliere Italiano podiando in un unico evento</title>
+  <title>Maggior numero di eventi a podio (anche rimossi)</title>
   <link rel="stylesheet" href="../../style.css">
   <link rel="stylesheet" href="../../table.css">
 </head>
 <body>
-  <h1>Medagliere Italiano podiando in un unico evento
+  <h1>Maggior numero di eventi a podio (anche rimossi)
   <br>
 	<span style="font-size: 0.5em; font-style: italic; color: gray;">
-		Medagliere italiano escludendo le persone che hanno podiato in 2 o più eventi
+		Italiani per numero di eventi a podio includendo anche gli eventi non più ufficiali
 	</span>
   </br>
   </h1>
@@ -65,7 +65,7 @@ function escapeHtml(s) {
 }
 
 // fetch e build tabella
-fetch('../../data/medagliere/Medagliere Italiano podiando in un unico evento.csv')
+fetch('../../data/vittorie-podi/Maggior numero di eventi a podio (anche rimossi).csv')
   .then(r => r.text())
   .then(text => {
     // split rows in modo robusto (non gestisce campi con virgole racchiuse in quote; se servisse, usare parsing CSV)
@@ -88,8 +88,8 @@ fetch('../../data/medagliere/Medagliere Italiano podiando in un unico evento.csv
           return `<td><a href="${url}" target="_blank" rel="noopener">${escapeHtml(raw)}</a></td>`;
         }
 
-        // 2) quarta colonna (indice 3) -> eventi -> immagini
-        if (i === 3) {
+        // 2) quinta colonna (indice 4) -> eventi -> immagini
+        if (i === 4) {
           // assegna classe speciale per CSS
           const inner = renderEventsCell(raw);
           return `<td class="events-cell">${inner}</td>`;
