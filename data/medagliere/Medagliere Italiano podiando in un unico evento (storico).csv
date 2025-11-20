@@ -1,0 +1,137 @@
+﻿#,WCAid,Nome,Evento,Oro,Argento,Bronzo,Totale,Corrente,Fine
+1,2008SANT01,Andrea Santambrogio,sq1,6,0,1,7,NO,2014-09-14
+2,2022BOLD01,Loris Boldi,pyram,5,2,7,14,SI,
+3,2021MAGG02,Matteo Maggiali,pyram,5,2,3,10,NO,2025-01-05
+4,2011NATA02,Andrea Natale,777,4,2,0,6,NO,2015-10-18
+5,2022CHIA12,Ismaele Chiarella,pyram,4,1,2,7,NO,2024-09-22
+6,2019MAZZ01,Nicola Mazza,222,3,3,4,10,SI,
+7,2021CALZ01,Alessandro Calzoni,skewb,3,2,2,7,NO,2023-04-16
+8,2022SCHI01,Giacomo Schiava,333bf,3,0,0,3,NO,2024-07-07
+9,2022FIOR04,Francesco Fiore,sq1,2,4,5,11,SI,
+10,2017SANN01,Valerio Sannito,222,2,3,4,9,SI,
+11,2011ANNE01,Edoardo Annesi,222,2,2,0,4,NO,2014-11-02
+12,2013SOLI02,Alessandro Solito,333bf,2,1,0,3,SI,
+13,2019SART01,Daniel Sartori,333,2,0,1,3,NO,2022-06-19
+14,2021NOVI01,Alessia Novizio,clock,1,5,5,11,NO,2025-03-23
+15,2014MARC05,Leonardo Marchizza,pyram,1,4,0,5,NO,2015-08-30
+16,2019VALL10,Tea Raimondi Vallesi,minx,1,3,3,7,SI,
+17,2022COPP03,Vincenzo Coppola,sq1,1,3,2,6,NO,2024-12-29
+,2022LESC02,Sebastiano Leschiutta,222,1,3,2,6,SI,
+19,2024SIME01,Antonello Simeone,pyram,1,3,1,5,SI,
+20,2009MACR01,Davide Macri,222,1,3,0,4,NO,2011-04-23
+,2019MAZZ02,Pietro Mazza,sq1,1,3,0,4,NO,2023-04-16
+22,2019DONA03,Yuri Donati,pyram,1,2,2,5,SI,
+,2020GUAR01,Marco Guarasci,minx,1,2,2,5,NO,2023-06-18
+24,2011VERD01,Andrew Verducci,333,1,2,1,4,SI,
+,2016PANN02,Daniele Panna,333bf,1,2,1,4,NO,2024-08-11
+26,2019CAMI03,Davide Camilleri,333,1,2,0,3,SI,
+27,2008LOMB01,Pasquale Lombardozzi,minx,1,1,1,3,NO,2010-06-13
+,2017FOKI01,Alexandros Fokianos,333fm,1,1,1,3,SI,
+,2022CARU01,Gianluca Caruso,pyram,1,1,1,3,NO,2025-03-23
+,2023EMIL02,Matteo Emiliani,222,1,1,1,3,NO,2025-02-16
+31,2011MOSC01,Andrea Moscatello,sq1,1,1,0,2,NO,2012-12-09
+,2022MACC01,Evan Maccagnan,pyram,1,1,0,2,NO,2023-06-25
+,2023SANN03,Lorenzo Sannibale,skewb,1,1,0,2,NO,2025-06-29
+,2023SPEN01,Raffaele Russo Spena,333bf,1,1,0,2,SI,
+35,2016IEZZ01,Francesco Iezzi,clock,1,0,2,3,SI,
+,2019COLA01,Valerio Colapinto,skewb,1,0,2,3,SI,
+,2021PIUM01,Fabio Piumatti,minx,1,0,2,3,NO,2025-09-14
+,2021SALE01,Sofia Saletnich,pyram,1,0,2,3,NO,2023-03-12
+39,2011ZORZ01,Stefano Zorzi,333,1,0,1,2,NO,2013-04-20
+40,2008BRAN01,Filippo Brancaleoni,magic,1,0,0,1,NO,2009-09-20
+,2009CIAN01,Simone Ciancotti,333mbf,1,0,0,1,NO,2010-05-09
+,2009GRAV01,Lorenzo Gravina,magic,1,0,0,1,NO,2010-07-27
+,2009TESS01,Giovanni Tessari,222,1,0,0,1,NO,2010-10-03
+,2010QUAG01,Damiano Quagliotto,magic,1,0,0,1,NO,2011-07-09
+,2010VERD01,Francesco Verdicchio,magic,1,0,0,1,SI,
+,2011GALA01,Filippo Galasso,333ft,1,0,0,1,NO,2012-04-01
+,2012ANON04,Anonymous,magic,1,0,0,1,NO,2013-04-21
+,2012PICC01,Angelo Piccolella,pyram,1,0,0,1,NO,2014-11-16
+,2013ZACC01,Giorgio Zaccaria,333bf,1,0,0,1,SI,
+,2015MANN02,Marco Manno,222,1,0,0,1,NO,2016-04-03
+,2016SPED01,Gabriele Spedicato,333fm,1,0,0,1,SI,
+,2017GALE01,Mattia Galentino,333,1,0,0,1,NO,2018-06-09
+,2017PIER03,Davide Pierrat,222,1,0,0,1,NO,2018-02-04
+,2018BUZZ01,Gabriele Buzzi,sq1,1,0,0,1,SI,
+,2018OPPI01,Leonardo Oppi,222,1,0,0,1,SI,
+,2019RIGO01,Mattia Rigo,333bf,1,0,0,1,NO,2022-02-13
+,2022CAPA01,Rocco Daniele Capanna,pyram,1,0,0,1,SI,
+,2022FIDO01,Giulio Romano Fidora,clock,1,0,0,1,SI,
+,2022PISC01,Giovanni Pische,sq1,1,0,0,1,NO,2024-06-02
+60,2022RANN01,Rocco Rannisi,skewb,0,4,2,6,NO,2024-11-24
+61,2019CRIP01,Jordan Crippa,333bf,0,3,2,5,NO,2025-04-19
+62,2018RIMI01,Flavio Rimi,sq1,0,3,0,3,NO,2022-02-27
+63,2015NICO02,Lorenzo Nicotra,222,0,2,2,4,SI,
+64,2008VIGA01,Giacomo Vigani,magic,0,2,1,3,SI,
+,2019CORO04,Giacomo Daniele Corò,333,0,2,1,3,NO,2022-07-31
+66,2009BOSI01,Isabella Bosia,333mbf,0,2,0,2,NO,2010-04-25
+,2012ACHA01,Carlos Pedro Casado de Achával,333bf,0,2,0,2,NO,2024-09-15
+,2012BERE01,Andrea Beretta,pyram,0,2,0,2,NO,2013-09-22
+,2017SORR02,Mattia Sorrentino,pyram,0,2,0,2,SI,
+70,2013TRAM03,Giovanni Tramontano,777,0,1,2,3,NO,2025-06-08
+,2016TADD01,Filippo Taddei,pyram,0,1,2,3,NO,2018-03-11
+72,2009CAIM01,Danilo Caimano,333oh,0,1,1,2,NO,2010-07-27
+,2009GIOR01,Nicola Giordani,333bf,0,1,1,2,NO,2011-03-13
+,2009GIOS01,Andrea Di Giosaffatte,333bf,0,1,1,2,SI,
+,2010CAZZ01,Federico Cazzaniga,pyram,0,1,1,2,SI,
+,2010CHIO01,Roberta Chiovoloni,magic,0,1,1,2,SI,
+,2013GUAR02,Lorenzo Guarini,sq1,0,1,1,2,SI,
+,2016LOBI01,Arcangelo Lobianco,pyram,0,1,1,2,SI,
+,2016LONG18,Gabriele Longo,minx,0,1,1,2,SI,
+,2016PALI02,Caterina Pali,333oh,0,1,1,2,SI,
+,2017TSAK02,Mirko Tsakarissianos,pyram,0,1,1,2,SI,
+,2018ADAM13,Davide Adamo,333fm,0,1,1,2,SI,
+,2018RAND05,Leonardo Randacio,skewb,0,1,1,2,SI,
+,2022CHIA13,Federico Chiarello,777,0,1,1,2,NO,2023-11-05
+,2022CORB03,Leonardo Corbelli,222,0,1,1,2,NO,2023-11-05
+,2023CARO07,Leonardo Carosio,222,0,1,1,2,NO,2024-09-22
+,2023CREA02,Christian Crea,222,0,1,1,2,NO,2024-09-15
+,2023GEMO02,Francesco Giuseppe Gemona,sq1,0,1,1,2,SI,
+,2023POLI03,Riccardo Polignano,pyram,0,1,1,2,NO,2025-09-14
+90,2007SCIB01,Emanuele Scibilia,magic,0,1,0,1,SI,
+,2008SIMO02,Nicolò Simone,mmagic,0,1,0,1,NO,2010-09-12
+,2009GIOB01,Piermarco Giobbi,222,0,1,0,1,NO,2012-04-15
+,2009GIOR02,Martino Giorgetti,magic,0,1,0,1,SI,
+,2009GLIO01,Alfredo Glioti,minx,0,1,0,1,NO,2010-07-27
+,2009LEVR01,Marco Levrero,333bf,0,1,0,1,NO,2010-03-07
+,2010BELO01,Marco Belotti,minx,0,1,0,1,NO,2011-12-17
+,2010MAYE01,Michael Volpe Mayerle,333mbf,0,1,0,1,SI,
+,2010MAZZ02,Marco Mazzuoccolo,333mbf,0,1,0,1,NO,2011-04-23
+,2010VESC01,Gianluca Veschi,777,0,1,0,1,NO,2011-04-23
+,2011CECC01,Miriana Cecchi,magic,0,1,0,1,NO,2016-12-18
+,2011MARC02,Giovanni Marchetti,minx,0,1,0,1,SI,
+,2011MINI01,Marco Minici,444,0,1,0,1,NO,2014-01-12
+,2012MURC01,Davide Murciano,222,0,1,0,1,SI,
+,2013DISA01,Edoardo Disarò,skewb,0,1,0,1,NO,2014-03-29
+,2014BENT01,Claudio Bentivoglio,sq1,0,1,0,1,NO,2018-12-16
+,2014CAST15,Martino Castellana,skewb,0,1,0,1,SI,
+,2014COLI02,Gianluca Colizzi,333,0,1,0,1,NO,2016-04-03
+,2014GERL01,Federico Gerli,sq1,0,1,0,1,SI,
+,2015CITT01,Marco Edoardo Cittar,333bf,0,1,0,1,NO,2016-05-15
+,2015PERU02,Vittorio Maria Perucatti,222,0,1,0,1,NO,2017-09-16
+,2016ZANE01,Filippo Zanetti,222,0,1,0,1,SI,
+,2017GENT01,Lorenzo Gentili,pyram,0,1,0,1,SI,
+,2017GUID01,Carolina Guidetti,555,0,1,0,1,NO,2022-07-03
+,2017MAMB01,Giacomo Mambrini,clock,0,1,0,1,NO,2017-11-25
+,2017TENU01,Enrico Tenuti,minx,0,1,0,1,NO,2022-07-03
+,2018BOFF01,Jacopo Antonio Boffa,clock,0,1,0,1,SI,
+,2018CENT02,Giovanni Centili,222,0,1,0,1,NO,2020-02-15
+,2018CILI01,Simone Cilia,777,0,1,0,1,SI,
+,2018SCAL02,Claudio Fabrizio Scalia,333,0,1,0,1,NO,2024-06-02
+,2019GIAN04,Eleonora Giangrandi,555bf,0,1,0,1,NO,2023-10-08
+,2019MIRA08,Gianpaolo Miranda,pyram,0,1,0,1,SI,
+,2019PAOL02,Federico De Paoli,222,0,1,0,1,NO,2022-10-16
+,2020MARC01,Simone Marcellini,555,0,1,0,1,SI,
+,2020ZAGO01,Mattia Zago,222,0,1,0,1,SI,
+,2021GALA01,Riccardo Galanti,skewb,0,1,0,1,SI,
+,2021MARC03,Chiara Marcucci,333bf,0,1,0,1,NO,2024-03-30
+,2022CHIA11,Giosuele Chiarella,skewb,0,1,0,1,NO,2024-08-25
+,2022FUSE01,Daniele Fusella,sq1,0,1,0,1,NO,2023-10-22
+,2022MANT03,Alberto Mantovani,555,0,1,0,1,NO,2024-04-14
+,2022RIPO01,Riccardo Ripoldi,333bf,0,1,0,1,NO,2023-08-06
+,2022ROSS02,Fabio Rossi,222,0,1,0,1,NO,2024-08-11
+,2023DANT01,Michel D'Antoni,333bf,0,1,0,1,NO,2024-03-30
+,2023PICH01,Maximilian Pichler,pyram,0,1,0,1,NO,2024-03-23
+,2024FRAU01,Anita Francesca Frau,pyram,0,1,0,1,SI,
+,2024PRIS02,Giulio Prisciantelli,222,0,1,0,1,SI,
+,2025FEGH01,Leonardo Feghali,pyram,0,1,0,1,SI,

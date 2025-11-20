@@ -333,12 +333,43 @@
           <div class="final-item blue" onclick="location.href='pages/medagliere/Medagliere Italiano podiando in un unico evento.html'">
 			  Medagliere Podiando in un unico Evento
 		  </div>
+		  
+          <!-- ----------------------- -->
+          <!-- PODIANDO in un evento (storico) -->
+          <!-- ----------------------- -->
+          <div class="final-item blue" onclick="location.href='pages/medagliere/Medagliere Italiano podiando in un unico evento (storico).html'">
+			  Medagliere Podiando in un unico Evento (storico)
+		  </div>
 
       </div>
   </div> <!-- Fine macro sezione Medagliere -->
 
 </div>
 
+
+
+<div class="accordion">
+
+  <!-- ====================== -->
+  <!--       VITTORIE       -->
+  <!-- ====================== -->
+  <div class="accordion-item">
+      <button class="accordion-header">Vittorie e Podi</button>
+      <div class="accordion-content">
+
+          <!-- Medagliere per # Ori -->
+          <div class="final-item blue" onclick="location.href='pages/vittorie-podi/Maggior numero di eventi vinti.html'">
+			  Maggior numero di eventi vinti
+		  </div>
+
+          <!-- Medagliere totale -->
+          <div class="final-item blue" onclick="location.href='pages/medagliere/Maggior numero di eventi vinti (anche rimossi).html'">
+                  Maggior numero di eventi vinti (anche rimossi)
+          </div>
+	  </div>
+  </div>
+</div>  
+		  
 <!-- Script accordion -->
 <script>
 document.querySelectorAll('.accordion-header').forEach(header => {
@@ -350,6 +381,16 @@ document.querySelectorAll('.accordion-header').forEach(header => {
         item.classList.toggle('open');
     });
 });
+
+// Codice per renderizzare i codici evento nelle immagini
+const IMAGE_BASE = "https://raw.githubusercontent.com/cubing/icons/main/src/svg/event/";
+
+function renderCell(value) {
+    const items = value.split(" ");
+    return items
+        .map(v => `<img src="${IMAGE_BASE}${v}.svg" width="35" alt="">`)
+        .join(" ");
+}
 </script>
 
 </body>
