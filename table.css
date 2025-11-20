@@ -40,7 +40,7 @@ a:hover {
 
 td.events-cell {
   white-space: nowrap;
-  max-width: 420px;       /* regola a piacere */
+  max-width: 545px;       /* regola a piacere */
   overflow-x: auto;
   padding-right: 6px;
 }
