@@ -88,8 +88,8 @@ fetch('../../data/vittorie-podi/Maggior numero di eventi vinti (anche rimossi).c
           return `<td><a href="${url}" target="_blank" rel="noopener">${escapeHtml(raw)}</a></td>`;
         }
 
-        // 2) quarta colonna (indice 3) -> eventi -> immagini
-        if (i === 3) {
+        // 2) quinta colonna (indice 4) -> eventi -> immagini
+        if (i === 4) {
           // assegna classe speciale per CSS
           const inner = renderEventsCell(raw);
           return `<td class="events-cell">${inner}</td>`;
