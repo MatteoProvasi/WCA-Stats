@@ -1,0 +1,116 @@
+﻿#,WCAid,Nome,Competizioni
+1,2009PROV01,Matteo Provasi,98
+2,2016GAMM01,Vincenzo Maria Gammino,84
+3,2017DUMM01,Matteo Dummar,80
+4,2012CANT02,Simone Cantarelli,63
+5,2011TRON02,Sebastiano Tronto,61
+6,2019CRIP01,Jordan Crippa,51
+7,2007POLI01,Lorenzo Vigani Poli,47
+8,2014PRES01,Manel Prestieri,46
+9,2008BRAN01,Filippo Brancaleoni,34
+10,2021MARC03,Chiara Marcucci,32
+,2022ROSS02,Fabio Rossi,32
+12,2021MARI04,Paolo Marino,30
+13,2020TOMA01,Fabian Tomasović,22
+,2024RICC01,Riccardo Fiumefreddo,22
+15,2008SIMO02,Nicolò Simone,21
+16,2009SANT01,Simone Santarsiero,19
+,2022BOLD01,Loris Boldi,19
+18,2008LOMB01,Pasquale Lombardozzi,17
+,2022CHIA11,Giosuele Chiarella,17
+,2023FORC02,Vincenzo Forchi,17
+21,2008ZOFF01,Tommaso Zoffoli,16
+,2017GUID01,Carolina Guidetti,16
+,2022CHIA12,Ismaele Chiarella,16
+,2023PICH01,Maximilian Pichler,16
+25,2008CIRN01,Fabrizio Cirnigliaro,15
+,2009ROTA01,Marco Rota,15
+,2016GRAV02,Oscar Luigi M. Gravador,15
+28,2014BACC01,Gabriele Bacchieri,14
+,2014RAPO01,Tommaso Raposio,14
+,2019SART01,Daniel Sartori,14
+31,2012ACHA01,Carlos Pedro Casado de Achával,13
+,2012CAPP01,Gabriele Cappelletti,13
+,2013FURL01,Mattia Furlan,13
+,2015PERU02,Vittorio Maria Perucatti,13
+35,2014PIZZ02,Christian Pizzasegola,12
+36,2009CONT01,Giovanni Contardi,11
+,2019ASAR01,Fabio Asaro,11
+,2023BUSC02,Lorenzo Calogero Buscemi,11
+39,2009MORI05,Paolo Moriello,10
+,2013MANO03,Alessandro Manopulo,10
+,2014MAUR06,Lorenzo Mauro,10
+,2017TENU01,Enrico Tenuti,10
+,2024JANS02,Tobi Janssen,10
+44,2009COLO03,Matteo Colombo,9
+,2016BROW06,Edoardo Brown,9
+,2024SASS01,Tiago Sassone,9
+47,2009BOSI01,Isabella Bosia,8
+,2009CIAN01,Simone Ciancotti,8
+,2012ANON04,Anonymous,8
+,2018ARNE04,Davide Arnesano,8
+,2018CUCI02,Matteo Cucinotta,8
+,2018LOCA01,Valerio Locatelli,8
+,2024GIUN01,Leonardo Giuntini,8
+54,2009IOVA01,Massimiliano Iovane,7
+,2011CECC01,Miriana Cecchi,7
+,2012NICO02,Alessandro Nicolì,7
+,2013GALL03,Julian Galliano,7
+,2017BRAS01,Luca Brasini,7
+,2022FRAT01,Simone Dalle Fratte,7
+,2022POZZ01,Alessio Pozzoli,7
+,2022QUAR01,Olmo Quarantini,7
+,2022RIPO01,Riccardo Ripoldi,7
+,2024JANS05,Sara Janssen,7
+,2024RICH22,Lorenzo Richetta,7
+65,2009DIMP01,Mariano D'Imperio,6
+,2009RUSS02,Massimo Russo,6
+,2015FAVA01,Alessandro Fava,6
+,2017FOKI01,Alexandros Fokianos,6
+,2017MAGN01,Lorenzo Magnarin,6
+,2021CALZ01,Alessandro Calzoni,6
+,2022COMI01,Luigi Francia Comi,6
+,2022MACC01,Evan Maccagnan,6
+,2022MAIS01,Giovanni Maistrello,6
+,2022MANT03,Alberto Mantovani,6
+,2023BALM03,Abril Balmaceda,6
+,2024CIBE01,Matteo Cibene,6
+,2024MONT07,Leo Montanari,6
+,2025MAZZ01,Andrea Mazzolin,6
+79,2010BELO01,Marco Belotti,5
+,2015BENA01,Martin Benaduce,5
+,2016GASP01,Pietro Gasparetto,5
+,2018RICC02,Alessandro Ricci,5
+,2018SCAL03,Piernicola Scalzi,5
+,2019CORO04,Giacomo Daniele Corò,5
+,2019GIOR02,Marco Giordano,5
+,2020GUAR01,Marco Guarasci,5
+,2022TOMA02,Ugo Numa Tomat,5
+,2023CLEM03,Filippo Clementi,5
+,2023ERRA01,Edoardo Erra,5
+,2023POLI03,Riccardo Polignano,5
+,2023ZUCC01,Ludovico Zuccotto,5
+,2024GUAR03,Nicolas Guarini,5
+,2025MARI14,Anna Marino,5
+94,2009MORI04,Claudio Moriello,4
+,2016PICC02,Francesco Piccione,4
+,2017ODOR01,Francesco Odorizzi,4
+,2018PERE31,Mattia Perego,4
+,2019MAZZ01,Nicola Mazza,4
+,2019MAZZ02,Pietro Mazza,4
+,2019RIGO01,Mattia Rigo,4
+,2019VALL10,Tea Raimondi Vallesi,4
+,2021LAZZ01,Andrea Lazzarin,4
+,2021OTTA01,Lorenzo Ottaviani,4
+,2022CECC01,Christian Ceccaroni,4
+,2022CEJK01,David Cejka,4
+,2022CERR01,Luca Cerrato,4
+,2022CHIA13,Federico Chiarello,4
+,2022MANZ01,Levi Manzoni,4
+,2022SEER01,Nivethan Seeralan,4
+,2022UBBI01,Mattia Ubbiali,4
+,2023DELL03,Leonardo Liu Dell'Era,4
+,2023MIGN01,Francesco Mignolo,4
+,2023MORE08,Dario Francesco Moretti,4
+,2023REGI02,Michelangelo Regis,4
+,2024LERM02,Davi Lermann,4

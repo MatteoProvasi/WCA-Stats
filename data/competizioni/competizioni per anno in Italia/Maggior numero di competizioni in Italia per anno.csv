@@ -1,0 +1,103 @@
+﻿#,WCAid,Nome,Anno,Competizioni
+1,2009PROV01,Matteo Provasi,2024,31
+2,2009ROTA01,Marco Rota,2023,29
+3,2009PROV01,Matteo Provasi,2023,28
+4,2009PROV01,Matteo Provasi,2025,26
+,2012CANT02,Simone Cantarelli,2023,26
+6,2021GASP01,Elisa Gasperotti,2023,25
+7,2012CANT02,Simone Cantarelli,2024,24
+8,2020TOMA01,Fabian Tomasović,2024,23
+9,2012CANT02,Simone Cantarelli,2025,22
+,2019SART01,Daniel Sartori,2024,22
+11,2012CAPP01,Gabriele Cappelletti,2023,21
+,2019SART01,Daniel Sartori,2023,21
+,2020TOMA01,Fabian Tomasović,2023,21
+14,2021MARI04,Paolo Marino,2023,20
+,2021MARI04,Paolo Marino,2024,20
+16,2009ROTA01,Marco Rota,2022,19
+,2009ROTA01,Marco Rota,2024,19
+,2012CANT02,Simone Cantarelli,2022,19
+,2018LOCA01,Valerio Locatelli,2023,19
+,2019SART01,Daniel Sartori,2025,19
+,2021GASP01,Elisa Gasperotti,2024,19
+22,2009ROTA01,Marco Rota,2025,18
+,2019VALL10,Tea Raimondi Vallesi,2023,18
+24,2018LOCA01,Valerio Locatelli,2024,17
+,2019RIGO01,Mattia Rigo,2024,17
+,2021MARC03,Chiara Marcucci,2025,17
+,2021SALE01,Sofia Saletnich,2024,17
+28,2019CORO04,Giacomo Daniele Corò,2023,16
+,2021GASP01,Elisa Gasperotti,2025,16
+,2021SALE01,Sofia Saletnich,2023,16
+,2021SALE01,Sofia Saletnich,2025,16
+,2023EMIL02,Matteo Emiliani,2025,16
+33,2009PROV01,Matteo Provasi,2022,15
+,2019CORO04,Giacomo Daniele Corò,2024,15
+,2019GIOR02,Marco Giordano,2023,15
+,2020TOMA01,Fabian Tomasović,2025,15
+,2021MARC03,Chiara Marcucci,2024,15
+,2021NOVI01,Alessia Novizio,2023,15
+,2021NOVI01,Alessia Novizio,2024,15
+40,2007POLI01,Lorenzo Vigani Poli,2018,14
+,2012PLAC01,Gianluca Placenti,2023,14
+,2018RIMI01,Flavio Rimi,2023,14
+,2019RIGO01,Mattia Rigo,2023,14
+,2021GASP01,Elisa Gasperotti,2022,14
+,2021MARI04,Paolo Marino,2025,14
+,2021ZANG01,Alessandro Zangolini,2023,14
+,2022BRED02,Alessandro Breda,2023,14
+,2022MACC01,Evan Maccagnan,2023,14
+,2022MANT03,Alberto Mantovani,2024,14
+,2022PISC01,Giovanni Pische,2023,14
+,2022PISC01,Giovanni Pische,2024,14
+,2023CREA02,Christian Crea,2024,14
+,2023SART03,Diego Sartori,2024,14
+54,2012CANT02,Simone Cantarelli,2018,13
+,2012NICO02,Alessandro Nicolì,2022,13
+,2012NICO02,Alessandro Nicolì,2023,13
+,2014MAUR06,Lorenzo Mauro,2023,13
+,2014RAPO01,Tommaso Raposio,2023,13
+,2019VALL10,Tea Raimondi Vallesi,2024,13
+,2021ITAL02,Manfredi Italiano,2023,13
+,2021ZANG01,Alessandro Zangolini,2025,13
+,2022CORB03,Leonardo Corbelli,2025,13
+,2022LESC02,Sebastiano Leschiutta,2025,13
+,2022MACC01,Evan Maccagnan,2024,13
+,2022MANT03,Alberto Mantovani,2025,13
+,2023EMIL02,Matteo Emiliani,2024,13
+67,2007POLI01,Lorenzo Vigani Poli,2019,12
+,2009PROV01,Matteo Provasi,2014,12
+,2010MAYE01,Michael Volpe Mayerle,2011,12
+,2012CAPP01,Gabriele Cappelletti,2024,12
+,2014BACC01,Gabriele Bacchieri,2025,12
+,2014RAPO01,Tommaso Raposio,2024,12
+,2016GAMM01,Vincenzo Maria Gammino,2025,12
+,2017TENU01,Enrico Tenuti,2023,12
+,2018ARNE04,Davide Arnesano,2022,12
+,2019SART01,Daniel Sartori,2022,12
+,2020GUAR01,Marco Guarasci,2023,12
+,2021MARC03,Chiara Marcucci,2023,12
+,2021MARI04,Paolo Marino,2022,12
+,2021PAND01,Alessio Pandin,2024,12
+,2021ZANG01,Alessandro Zangolini,2022,12
+,2022FRAT01,Simone Dalle Fratte,2024,12
+,2022LESC02,Sebastiano Leschiutta,2024,12
+,2022TALA03,Valentina Trinca Talalin,2024,12
+,2022TALA03,Valentina Trinca Talalin,2025,12
+,2023PASS02,Alessio Passerini,2024,12
+87,2009PROV01,Matteo Provasi,2015,11
+,2009SANT01,Simone Santarsiero,2022,11
+,2012CANT02,Simone Cantarelli,2019,11
+,2014BACC01,Gabriele Bacchieri,2024,11
+,2014MAUR06,Lorenzo Mauro,2018,11
+,2018CENT02,Giovanni Centili,2023,11
+,2018RIMI01,Flavio Rimi,2024,11
+,2019CORO04,Giacomo Daniele Corò,2025,11
+,2019GIOR02,Marco Giordano,2022,11
+,2021CALZ01,Alessandro Calzoni,2024,11
+,2021GALI02,Carlo Galimberti,2023,11
+,2022CHIA11,Giosuele Chiarella,2024,11
+,2022CHIA12,Ismaele Chiarella,2024,11
+,2023CARO07,Leonardo Carosio,2025,11
+,2023CREA02,Christian Crea,2023,11
+,2024PADO01,Federico Padovani,2024,11

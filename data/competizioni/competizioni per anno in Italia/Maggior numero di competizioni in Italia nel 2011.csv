@@ -1,0 +1,134 @@
+﻿#,WCAid,Nome,Competizioni
+1,2010MAYE01,Michael Volpe Mayerle,12
+2,2007POLI01,Lorenzo Vigani Poli,10
+,2008BRAN01,Filippo Brancaleoni,10
+,2008CIRN01,Fabrizio Cirnigliaro,10
+,2009MORI05,Paolo Moriello,10
+6,2009PROV01,Matteo Provasi,8
+7,2009GRAV01,Lorenzo Gravina,7
+,2009ROTA01,Marco Rota,7
+,2009TESS01,Giovanni Tessari,7
+,2011ACCO01,Giulia Accorsi,7
+11,2008SIMO02,Nicolò Simone,6
+,2009CONT01,Giovanni Contardi,6
+,2009DIMP01,Mariano D'Imperio,6
+,2009SANT01,Simone Santarsiero,6
+,2011BONI01,Luca Bonisoli,6
+16,2008MONT04,Andrea Egidio Monti,5
+,2008SANT01,Andrea Santambrogio,5
+,2008SIMO01,Riccardo Simone,5
+,2009GIOR01,Nicola Giordani,5
+,2009MONT01,Walter Antonio Monti,5
+,2010MAZZ02,Marco Mazzuoccolo,5
+,2010MELC01,Jacopo Melchiorri,5
+,2010PAUL02,Cesare Paulin,5
+,2010SARD01,Andrea Lo Sardo,5
+,2011GALA01,Filippo Galasso,5
+,2011ZANI01,Stefano Zanini,5
+27,2007BERT01,Filippo Bertolotti,4
+,2008VIGA01,Giacomo Vigani,4
+,2009BRAN02,Riccardo Brancaleoni,4
+,2009CALZ01,Alessandro Calzolaro,4
+,2009CIAN01,Simone Ciancotti,4
+,2009MACR01,Davide Macri,4
+,2010BELO01,Marco Belotti,4
+,2010MAZZ01,Paolo Mazzei,4
+,2010VESC01,Gianluca Veschi,4
+,2011CECC01,Miriana Cecchi,4
+,2011SCRI01,Federico Scrinzi,4
+38,2008LAPA01,Marco Lapadula,3
+,2009BEVA01,Stefano Bevacqua,3
+,2009CALZ02,Mirko Calzolaro,3
+,2009COLO03,Matteo Colombo,3
+,2009IOVA01,Massimiliano Iovane,3
+,2009KASE02,Christian Kaserer,3
+,2009MONS01,Nino Monserrato,3
+,2009XULU01,Luojin Xu,3
+,2010CAZZ01,Federico Cazzaniga,3
+,2010CHAN14,Letian Mattia Chang,3
+,2010MUCC01,Jacopo Mucci,3
+,2010QUAG01,Damiano Quagliotto,3
+,2010SIMO02,Carlo Simone,3
+,2011ANNE01,Edoardo Annesi,3
+,2011BASA01,Federico Basanese,3
+,2011COLA01,Mirko Colangeli,3
+,2011CORS01,Davide Corsi,3
+,2011MEHD01,Sadid El Mehdi,3
+,2011MERL01,Davide Merli,3
+,2011TRON02,Sebastiano Tronto,3
+,2011VERD01,Andrew Verducci,3
+59,2008ROSS01,Paolo Rosson,2
+,2009MORI04,Claudio Moriello,2
+,2010FRAN04,Mattia Francardi,2
+,2010GAMB01,Gabriele Gambino,2
+,2010GIRO01,Paolo Girotti,2
+,2010SAPI01,Giuseppe Sapia,2
+,2010TANA03,Nicola Tanadini,2
+,2010VIGA01,Filippo Vigani,2
+,2011GIAB01,Alberto Giabardo,2
+,2011GIOR01,Flavio Di Giorgio,2
+,2011GRAN03,Matteo Dal Grande,2
+,2011LAPA02,Davide Lapadula,2
+,2011LENT01,Andrea Lenti,2
+,2011MINI01,Marco Minici,2
+,2011MOSC01,Andrea Moscatello,2
+,2011PICH02,Luca Pichenstein,2
+,2011SCRI02,Riccardo Scrinzi,2
+,2011VASI02,Paolo Vasinton,2
+,2011ZORZ01,Stefano Zorzi,2
+78,2007CHIM01,Giulio Chiminelli,1
+,2008IAMO01,Marco Iamonte,1
+,2008ZOFF01,Tommaso Zoffoli,1
+,2009BAIL01,Selena Bailo,1
+,2009BOSI01,Isabella Bosia,1
+,2009CORR02,Lorenzo Corradin,1
+,2009GIOB01,Piermarco Giobbi,1
+,2009GIOS01,Andrea Di Giosaffatte,1
+,2009LEVR01,Marco Levrero,1
+,2009MANZ01,Luigi Manzo,1
+,2009MASI01,Federico Masilunas,1
+,2009MILL01,Vincenzo Millemaci,1
+,2009SANN01,Federico Sannicolò,1
+,2009VERD01,Marco Verdicchio,1
+,2010CARA01,Francesco Carannante,1
+,2010CHIO01,Roberta Chiovoloni,1
+,2010CIVI01,Andrea Civiero,1
+,2010DECA01,Nicola De Cao,1
+,2010RAVA01,Stefano Ravaglia,1
+,2010ZUMB01,Gaetano Zumbo,1
+,2011AYOU02,Sadid Ayoub,1
+,2011BARB03,Nicola Barbaro,1
+,2011BELL02,Marco Bellini,1
+,2011BIAN01,Luca Bianchi,1
+,2011BOCC01,Nicola Boccabella,1
+,2011BUON01,Alessandro Buono,1
+,2011CALA02,Gianni Calabrese,1
+,2011CONT02,Mirco Conti,1
+,2011DAND01,Angelo D'Andrea,1
+,2011DEMU01,Leonardo Demutti,1
+,2011DUCH01,Gabriele Duchi,1
+,2011GHIZ01,Ferruccio Ghizzi,1
+,2011GUID01,Marco Guidi,1
+,2011IRAC01,Alessandro Iraci,1
+,2011LASC01,Umberto Lasco,1
+,2011LIBE01,Alfredo Libertini,1
+,2011LUSV01,Gianmarco Lusvardi,1
+,2011MALA01,Sofia Malatesta,1
+,2011MANF01,Gabriele Manfrini,1
+,2011MARC02,Giovanni Marchetti,1
+,2011MONG01,Massimiliano Mongiu,1
+,2011MONT02,Kevin Montano,1
+,2011MOSC02,Fabio Moscatiello,1
+,2011NATA02,Andrea Natale,1
+,2011PORC01,Luigina Porco,1
+,2011RAZZ01,Giovanni Razzino,1
+,2011SANG01,Francesco Sangalli,1
+,2011SART01,Stefania Sartori,1
+,2011SIMO04,Lorenzo Simonetti,1
+,2011TANF01,Marco Tanfoni,1
+,2011THEV01,Nicola Thevenet,1
+,2011TROI01,Antonio Troiano,1
+,2011VALE03,Matteo Valentini,1
+,2011VEND01,Simone Vendramin,1
+,2011VIOL01,Federico Viola,1
+,2011ZERI01,Daniele Zerilli,1

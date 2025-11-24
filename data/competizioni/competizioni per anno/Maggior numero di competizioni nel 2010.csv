@@ -1,0 +1,115 @@
+﻿#,WCAid,Nome,Competizioni
+1,2008BRAN01,Filippo Brancaleoni,13
+2,2007POLI01,Lorenzo Vigani Poli,11
+3,2008CIRN01,Fabrizio Cirnigliaro,9
+,2008SIMO01,Riccardo Simone,9
+,2008SIMO02,Nicolò Simone,9
+6,2008LAPA01,Marco Lapadula,7
+,2008MONT04,Andrea Egidio Monti,7
+,2009BOSI01,Isabella Bosia,7
+,2009CONT01,Giovanni Contardi,7
+,2009IOVA01,Massimiliano Iovane,7
+,2009LEVR01,Marco Levrero,7
+,2009MORI05,Paolo Moriello,7
+,2009TESS01,Giovanni Tessari,7
+14,2008SANT01,Andrea Santambrogio,6
+,2008ZOFF01,Tommaso Zoffoli,6
+,2009BEVA01,Stefano Bevacqua,6
+,2009CIAN01,Simone Ciancotti,6
+,2009DIMP01,Mariano D'Imperio,6
+,2009GRAV01,Lorenzo Gravina,6
+,2009MONT01,Walter Antonio Monti,6
+,2009MORI04,Claudio Moriello,6
+,2009PROV01,Matteo Provasi,6
+,2009SANT01,Simone Santarsiero,6
+,2010MAZZ01,Paolo Mazzei,6
+25,2008LOMB01,Pasquale Lombardozzi,5
+,2009ROTA01,Marco Rota,5
+,2010PAUL02,Cesare Paulin,5
+28,2007BERT01,Filippo Bertolotti,4
+,2009COLO03,Matteo Colombo,4
+,2009GIOR01,Nicola Giordani,4
+,2009MACR01,Davide Macri,4
+,2009MONS01,Nino Monserrato,4
+,2010GAMB01,Gabriele Gambino,4
+,2010SARD01,Andrea Lo Sardo,4
+35,2009CAIM01,Danilo Caimano,3
+,2009LUNA01,Luigi Lunardon,3
+,2009MAZZ02,Federico Mazzetto,3
+,2009RUSS02,Massimo Russo,3
+,2009RUSS03,Michele Russo,3
+,2009VERD01,Marco Verdicchio,3
+,2010BERG01,Jonathan Bergamelli,3
+,2010QUAG01,Damiano Quagliotto,3
+43,2008IAMO01,Marco Iamonte,2
+,2009BIAS01,Filippo Di Biase,2
+,2009BRAN02,Riccardo Brancaleoni,2
+,2009BUON01,Stefano Buongarzone,2
+,2009CORR02,Lorenzo Corradin,2
+,2009GIOB01,Piermarco Giobbi,2
+,2009GIOR02,Martino Giorgetti,2
+,2009GIOS01,Andrea Di Giosaffatte,2
+,2009KASE02,Christian Kaserer,2
+,2009KASE03,Klaus Kaserer,2
+,2009MANZ01,Luigi Manzo,2
+,2009MASI01,Federico Masilunas,2
+,2009SANN01,Federico Sannicolò,2
+,2009STAC01,Lapo Staccioli,2
+,2010BENI01,Albiero Beniamino,2
+,2010CARD01,Jacopo Cardone,2
+,2010CATT01,Massimiliano Cattaneo,2
+,2010CAZZ01,Federico Cazzaniga,2
+,2010CHIO01,Roberta Chiovoloni,2
+,2010FRAN04,Mattia Francardi,2
+,2010LIUZ01,Davide Liuzzo,2
+,2010MAZZ02,Marco Mazzuoccolo,2
+,2010MELC01,Jacopo Melchiorri,2
+,2010RAVA01,Stefano Ravaglia,2
+,2010SAPI01,Giuseppe Sapia,2
+,2010VERD01,Francesco Verdicchio,2
+,2010VIGA01,Filippo Vigani,2
+70,2008PUSC01,Laura Pusceddu,1
+,2009AVAN01,Chiara Avanzato,1
+,2009BADI01,Federico Badioli,1
+,2009BAIL01,Selena Bailo,1
+,2009COME01,Simone Avezzano Comes,1
+,2009GERM01,Fabio Germinario,1
+,2009GLIO01,Alfredo Glioti,1
+,2009LAZZ01,Gabriele Lazzarotto,1
+,2009LAZZ02,Francesco Lazzarotto,1
+,2009MANZ02,Giuseppe Manzo,1
+,2009MAZZ01,Alessandro Mazzetto,1
+,2009MILL01,Vincenzo Millemaci,1
+,2009PAGA01,Matteo Pagano,1
+,2009SIMO02,Luca Simone,1
+,2009VILL03,Thomas Villano,1
+,2010BART01,Paolo Bartolucci,1
+,2010BELO01,Marco Belotti,1
+,2010BONA01,Leonardo Bonaventura,1
+,2010CARA01,Francesco Carannante,1
+,2010CARL03,Thomas Carli,1
+,2010CENT01,Claudio Centrone,1
+,2010CHAN14,Letian Mattia Chang,1
+,2010CIAM01,Roberta Ciampi,1
+,2010CIVI01,Andrea Civiero,1
+,2010DECA01,Nicola De Cao,1
+,2010FACC01,Valerio Facchini,1
+,2010FRAI01,Ivan Fraioli,1
+,2010GHIS01,Simone Ghisu,1
+,2010GIRO01,Paolo Girotti,1
+,2010MAYE01,Michael Volpe Mayerle,1
+,2010MONI01,Nicolò Monica,1
+,2010MUCC01,Jacopo Mucci,1
+,2010NICC01,Segu Niccolò,1
+,2010PELL01,Paolo Pellegrino,1
+,2010RICC01,Giorgio Riccobono,1
+,2010ROLL01,Riccardo Rollone,1
+,2010SANT06,Lorenzo Santaroli,1
+,2010SCIS01,Valerio Scisci,1
+,2010SIMO02,Carlo Simone,1
+,2010SPEC01,Marco Specchia,1
+,2010TANA03,Nicola Tanadini,1
+,2010TOPI01,Thomas Topini,1
+,2010VALE03,Gaetano Valentino,1
+,2010VESC01,Gianluca Veschi,1
+,2010ZUMB01,Gaetano Zumbo,1
